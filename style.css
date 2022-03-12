@@ -658,16 +658,11 @@ nav {
 /* 404 page */
 
 .c404 {
-  padding-top: 105px;
-  background-color: white;
   display: flex;
   flex-direction: column;
-  vertical-align: center;
-  min-height: 800px;
-  padding-left: 3vw;
-  gap: 30px;
+  text-align: center;
+  align-items: center;
 }
-
 
 .c404-content {
   display: flex;
@@ -683,6 +678,19 @@ nav {
 .c404 .btn {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.c404-item {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.c404-item a {
+  text-decoration: none;
+  color: black;
 }
 
 /* Dla mediow */

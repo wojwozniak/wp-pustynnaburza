@@ -21,7 +21,6 @@
 		<h4 class="zgloszenia"></h4>
       </article>
 	</section>
-	<section class="spacer layer1"></section>
 	<!-- Sekcja z opisem -->
 	<section id="description" class="section">
 			<h2>O Pustynnej Burzy</h2>
