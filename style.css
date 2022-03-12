@@ -145,7 +145,7 @@ nav {
 /* logo */
 
 .logo {
-  height: 140px;
+  height: 120px;
   width: auto;
 }
 
@@ -219,7 +219,7 @@ nav {
   .links a {
     display: flex;
     background: transparent;
-    font-size: 1.4vw;
+    font-size: 15px;
     margin: 1rem;
     padding: 0;
   }
@@ -230,7 +230,7 @@ nav {
     
 
   [aria-current]:not([aria-current="false"]) {
-    color: linear-gradient(to right, var(--brightblack) 40%, var(--black) 75%);
+    font-weight: bold;
   }
 }
 
