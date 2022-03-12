@@ -24,7 +24,10 @@
 	<section class="spacer layer1"></section>
 	<!-- Sekcja z opisem -->
 	<section id="description" class="section">
-			<h2>Historia Pustynnej Burzy</h2>
+			<h2>O Pustynnej Burzy</h2>
+	</section>
+	<section class="end-section">
+		<h2 class="end-title">Masz jeszcze jakieś pytania?</h2>
 	</section>
 
 </div> <!-- container div -->
@@ -33,3 +36,4 @@
 	get_footer();
 ?>
     
+

@@ -3,9 +3,9 @@
 	get_header();
 ?>
 
-<article id="qna" class="single-wrapper">
+<article id="contact-section" class="single-wrapper">
     <div class="wrapper">
-        <h1 class="qna-title">Masz jakieś pytania? Skontaktuj się z nami!</h1>
+        <h1 class="contact-title">Masz jakieś pytania? Skontaktuj się z nami!</h1>
     </div>
     
 </article>

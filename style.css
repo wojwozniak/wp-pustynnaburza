@@ -145,8 +145,8 @@ nav {
 /* logo */
 
 .logo {
-  height: auto;
-  width: 240px;
+  height: 140px;
+  width: auto;
 }
 
 .invertcolor {
@@ -333,7 +333,7 @@ nav {
 /* Opis section */
 
 .opis {
-  background-color: white;
+  background-color: var(--whitesmoke);
   position: relative;
 }
 
@@ -449,13 +449,27 @@ nav {
   text-align: center; 
 }
 
+/* End section */
 
+.end-section {
+  min-height: 400px;
+  background-color: var(--whitesmoke);
+  display: flex;
+  justify-content: center;
+}
+
+.end-title {
+  font-size: 2rem;
+  color: var(--black);
+  padding-top: 40px;
+
+}
 
 
 /* ### OTHER PAGES ### */
 
 .single-wrapper {
-  padding-top: 125px;
+  padding-top: 145px;
   min-height: 60vh;
   background-color: var(--white);
   color: var(--black);
@@ -625,7 +639,16 @@ nav {
   align-items: center;
 }
 
+#contact-section {
+  background-color: var(--whitesmoke);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
+#contact-title {
+  color: black;
+}
 
 
 /* 404 page */
