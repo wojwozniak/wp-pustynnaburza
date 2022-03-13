@@ -6,7 +6,7 @@
         <div class="media-body">
             <h3 class="preview-title"><a href=<?php the_permalink() ?>><?php the_title(); ?> </a></h3>
             <div class="meta">
-                <span class="date"><?php the_date(); ?> </span>
+                <span class="date"><?php the_time(get_option('date_format')); ?> </span>
             </div>
             <div class="intro">    
                 <?php the_excerpt(); ?>
