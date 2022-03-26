@@ -90,13 +90,11 @@ a.button {
   text-align: center;
   background-color: var(--brightgray);
   margin: 5px;
-  border: 1px solid black;
   border-radius: 16px;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
   display: flex;
-  font-family: Inter, sans-serif;
   font-size: 18px;
   justify-content: center;
   line-height: 28px;
@@ -693,38 +691,71 @@ nav {
 
 .c404 {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-
-.c404-content {
-  display: flex;
   flex-direction: row;
-  gap: 5vw;
+  gap: 8vw;
+  padding: 0 4vw 0 4vw;
 }
 
-.c404 h3 {
-  font-size: 1rem;
-  padding: 0px;
+
+.c404-left {
+  width: 50%;
+  text-align: left;
+}
+
+.c404-img-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+  .c404 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .c404-left {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .c404-img-container {
+    width: 100%;
+  }
+
+  .c404-img {
+    height: auto;
+    width: auto;
+  }
+
+}
+
+.c404-img {
+  max-height: 400px;
+  min-height: 300px;
+}
+
+.c404-item {
+  padding-top: 5px;
+}
+
+.c404-btn-container {
+  display: flex;
+  justify-content: right;
 }
 
 .c404 .btn {
   padding-left: 100px;
   padding-right: 100px;
-}
-
-.c404-item {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+  white-space: nowrap;
+  margin-top: 40px;
 }
 
 .c404-item a {
   text-decoration: none;
-  color: black;
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* Dla mediow */

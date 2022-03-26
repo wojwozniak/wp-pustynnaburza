@@ -2,18 +2,22 @@
 	get_header();
 ?>
 
-<section class="single-wrapper c404">
-    <h1> Nie znaleziono takiej strony! </h1>
-    <div class="c404-content">
-        <div class="c404-item">
-            <h3>Możesz spróbować skorzystać z wyszukiwarki</h2>
-            <?php
-                get_search_form();
-            ?>
+<section class="single-wrapper">
+    <div class="c404">
+        <div class="c404-left">
+            <h2 class="h2">BŁĄD 404 - STRONA NIE ISTNIEJE</h2>
+            <div class="c404-item">
+                <h4 class="h4">NIESTETY NIE ZNALEZIONO STRONY KTÓREJ SZUKASZ. SPRAWDŹ CZY WPROWADZIŁEŚ POPRAWNY ADRES.</h4>
+                <?php
+                    get_search_form();
+                ?>
+            </div>
+            <div class="c404-item c404-btn-container">
+                <button class="btn"><a class="c404-home-btn" href="<?php echo get_home_url(); ?>">STRONA GŁÓWNA</a></button>
+            </div>
         </div>
-        <div class="c404-item">
-            <h3>lub wrócić na stronę główną</h2>
-            <button class="btn"><a class="c404-home-btn" href="<?php echo get_home_url(); ?>">Strona główna</a></button>
+        <div class="c404-img-container">
+            <img class="c404-img" src="<?php bloginfo('template_url'); ?>/assets/images/kompas.jpg" alt="Grafika z kompasem"/>
         </div>
     </div>
 </section>
