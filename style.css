@@ -107,6 +107,31 @@ a.button {
   width: 100%;
 }
 
+
+/* Page header */
+
+.h1 {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.h2 {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.desc {
+  color: var(--black);
+  font-size: 18px;
+}
+
+.text {
+  color: var(--black);
+  font-size: 18px;
+}
+
 .btn:hover {
   background-color: var(--darkgray);
 }
@@ -177,7 +202,7 @@ nav {
 .links a {
   background: var(--white);
   color: var(--black);
-  font-size: 1.1rem;
+  font-size: 15px;
   text-transform: uppercase;
   display: block;
   padding: 0.75rem 0;
@@ -231,6 +256,7 @@ nav {
 
   [aria-current]:not([aria-current="false"]) {
     font-weight: bold;
+    color: #FFC700;
   }
 }
 
@@ -292,6 +318,29 @@ nav {
   }
 }
 
+
+
+/* ### ALL PAGES ### */
+
+
+.site {
+  background-color: var(--whitesmoke) !important;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.single-wrapper {
+  padding-top: 145px;
+  min-height: 60vh;
+  background-color: var(--white);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+}
 
 
 /* ### Front Page ### */
@@ -463,33 +512,6 @@ nav {
   color: var(--black);
   padding-top: 40px;
 
-}
-
-
-/* ### OTHER PAGES ### */
-
-
-.site {
-  background-color: var(--whitesmoke) !important;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-}
-
-.single-wrapper {
-  padding-top: 145px;
-  min-height: 60vh;
-  background-color: var(--white);
-  color: var(--black);
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 10vh;
-}
-
-.site-title {
-  color: var(--black);
 }
 
 /* single post */

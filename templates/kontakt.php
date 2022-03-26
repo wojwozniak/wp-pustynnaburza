@@ -5,7 +5,7 @@
 
 <article id="contact-section" class="single-wrapper site">
     <div class="wrapper">
-        <h1 class="contact-title">Masz jakieś pytania? Skontaktuj się z nami!</h1>
+        <h1 class="contact-title h1">Masz jakieś pytania? Skontaktuj się z nami!</h1>
     </div>
     
 </article>
