@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- Podstawa strony z listą postów-->
-		<article class="single-wrapper">
+		<article id="index-background" class="single-wrapper">
 			<div class="post-wrapper">
 				<h2 class="h2">AKTUALNOŚCI</h2>
 				<?php
