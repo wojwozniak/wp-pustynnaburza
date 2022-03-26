@@ -5,7 +5,7 @@
 
 <article id="qna" class="single-wrapper site">
     <div class="qna">
-        <h1 class="site-title h1">Najczęściej zadawane pytania</h1>
+        <h1 class="h1">Najczęściej zadawane pytania</h1>
         <!--Javascript uses this div-->
         <div class="qna-wrapper"></div>
     </div>

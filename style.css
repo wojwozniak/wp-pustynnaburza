@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /*
 Theme Name: Pustynna Burza
 Text Domain: Pustynna Burza
-Version: 0.8.0
+Version: 0.8.2
 Description: Theme made for website about "Pustynna Burza" - event organised by scouts from ZHP Dąbrowa Górnicza
 Tags: responsive, topbar
 Author: Wojciech Woźniak
 Author URI: https://www.linkedin.com/in/wojciech-wo%C5%BAniak-064611211/
 */
+
+/* ### PAGEWIDE STYLES ### */
 
 :root {
     /* Theme's colour scheme */
@@ -68,7 +70,7 @@ body {
   background-position: center; 
   flex-direction: column;
   color: var(--brightblack);
-  font-family: 'Open Sans', Arial;
+  font-family: 'Roboto', sans-serif;
 }
 
 a.button {
@@ -108,38 +110,39 @@ a.button {
 }
 
 
-/* Page header */
+/* Headers */
+
+.h1 .h2 .h3 .h4 .text {
+  color: var(--black);
+}
 
 .h1 {
-  color: var(--black);
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .h2 {
-  color: var(--black);
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
-.desc {
-  color: var(--black);
+.h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.h4 {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .text {
-  color: var(--black);
   font-size: 18px;
+  font-weight: 400;
 }
 
 .btn:hover {
   background-color: var(--darkgray);
-}
-
-h3 {
-  font-size: 3rem;
-  color: var(--black);
-  padding: 15px;
 }
 
 /* ### Main navigation, header ### */
@@ -780,10 +783,6 @@ footer a {
 
 footer a:hover {
   color: var(--black);
-}
-
-footer h4 {
-  font-size: 1.5rem;
 }
 
 footer ul {
