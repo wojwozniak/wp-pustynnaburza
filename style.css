@@ -687,7 +687,7 @@ nav {
   text-align: center;
 }
 
-/* 404 page */
+/* ### 404 page ### */
 
 .c404 {
   display: flex;
@@ -757,6 +757,33 @@ nav {
   font-size: 18px;
   font-weight: 500;
 }
+
+/* Search form */
+
+.search-field {
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 15px;
+  border: 0;
+  margin: 0;
+  width: 85%;
+  border-radius: 40px;
+  background-color: var(--whitesmoke);
+  color: var(--black);
+}
+
+.search-submit {
+  padding: 5px 0 5px 0;
+  background-color: var(--brightgray);
+  border: 0;
+  margin: 0;
+  width: 10%;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+
+
 
 /* Dla mediow */
 
