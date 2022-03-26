@@ -590,7 +590,16 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10vh;
+  gap: 3vh;
+}
+
+.qna-title {
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
 }
 
 .qna-wrapper {

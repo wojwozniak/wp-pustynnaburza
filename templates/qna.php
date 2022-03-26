@@ -5,7 +5,10 @@
 
 <article id="qna" class="single-wrapper site">
     <div class="qna">
-        <h1 class="h1">Najczęściej zadawane pytania</h1>
+        <div class="qna-title">
+            <h1 class="h1">PYTANIA I ODPOWIEDZI</h1>
+            <h4 class="h4">Jeżeli nie znalazłeś interesującej Cię odpowiedzi - napisz do nas! </h4>
+        </div>
         <!--Javascript uses this div-->
         <div class="qna-wrapper"></div>
     </div>
