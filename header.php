@@ -36,7 +36,8 @@
 							'menu' => 'primary',
 							'container' => '',
 							'theme_location' => 'primary',
-							'items_wrap' => '<ul id="ul" class="links">%3$s</ul>'
+							'items_wrap' => '<ul id="ul" class="links">%3$s</ul>',
+							'container_aria_label' => 'footer-menu'
 
 						)
 					)

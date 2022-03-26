@@ -48,6 +48,7 @@ Author URI: https://www.linkedin.com/in/wojciech-wo%C5%BAniak-064611211/
     --white: rgb(255, 255, 255);
     --whitesmoke: #f0f0f0;
     --black: #000000;
+    --gold: #FFC700;
     --spacing: 0.25rem;
     --radius: 0.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -253,13 +254,13 @@ nav {
     color: var(--clr-white);
   }
 
-    
-
   [aria-current]:not([aria-current="false"]) {
     font-weight: bold;
-    color: #FFC700;
+    color: var(--gold);
   }
 }
+
+
 
 /* Menu toggle button */
 
@@ -545,6 +546,9 @@ nav {
 
 .post-wrapper {
   padding: 0px 3vw 0px 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .post-preview {
@@ -572,7 +576,8 @@ nav {
 .preview-title {
   padding: 0px;
   margin: 0px;
-  font-size: 3rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
 }
 
 .preview-title a {
@@ -580,7 +585,14 @@ nav {
   color: var(--black);
 }
 
+.date {
+  color: var(--darkgray);
+  font-weight: 500;
+}
 
+.more-link {
+  color: var(--gold);
+}
 
 /* QnA page */
 
