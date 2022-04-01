@@ -53,7 +53,9 @@ Author URI: https://www.linkedin.com/in/wojciech-wo%C5%BAniak-064611211/
     --radius: 0.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    --breakpoint: 1100px;
+    --breakpointbig: 1100px;
+    --breakpointmedium: 880px;
+    --breakpointsmall: 440px;
 
 }
 
@@ -84,6 +86,10 @@ a.button {
 
 .bold {
   font-weight: bold;
+}
+
+.normalplus {
+  font-weight: 500;
 }
 
 .btn {
@@ -774,18 +780,136 @@ nav {
 
 
 
-/* Kontakt */
+/* ### Kontakt ### */
 
-.wrapper {
+/* Contact data */
+
+#contact-section {
+  background-color: var(--white) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.c-wrapper section {
+  margin-bottom: 50px;
+}
+
+.c-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  margin-bottom: 50px;
+}
+
+.c-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.contact-data {
+  margin-bottom: 20px;
+}
+
+.contact-data p {
+  margin-bottom: 2px;
+}
+
+.c-socials a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#contact-section {
+.contact-form-wrapper {
+  width: 90%;
+  min-height: 400px;
+  background-color: var(--whitesmoke);
+}
+
+/* Person list */
+
+.c-us-title {
+  margin-bottom: 50px;
+}
+
+.c-us-list {
   display: flex;
+  flex-direction: column;
+}
+
+.c-us-div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
+}
+
+.c-us-staff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Single person */
+
+.c-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin: 1%;
+}
+
+.c-person-pic {
+  max-height: auto;
+  width: 22vw;
+  margin-bottom: 10px;
+}
+
+.c-person-data p {
+  margin-bottom: 5px;
+}
+
+ @media screen and (min-width: 720px) {
+  .c-wrapper {
+    text-align: left;
+  }
+
+  .c-first {
+    flex-direction: row;
+  }
+
+  .contact-info {
+    width: 50%;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+
+  .c-person {
+    width: 30%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .c-person {
+    width: 90%;
+  }
 }
 
 /* ### 404 page ### */

@@ -4,9 +4,121 @@
 ?>
 
 <article id="contact-section" class="single-wrapper site">
-    <div class="wrapper">
-        <h1 class="contact-title h1">Masz jakieś pytania? Skontaktuj się z nami!</h1>
-    </div>
+    <div class="c-wrapper">
+    <h1 class="contact-title h3">KONTAKT</h1>
+        <div class="c-first">
+            <section class="contact-info">
+                <div class="contact-data">
+                    <p class="smalltext normalplus">Hufiec ZHP Dąbrowa Górnicza</p>
+                    <p class="smalltext normalplus">Komenda Gry "Pustynna Burza"</p>
+                    <p class="smalltext normalplus">41-300 Dąbrowa Górnicza</p>
+                    <p class="smalltext normalplus">ul. Królowej Jadwigi 8</p>
+                </div> <!-- End of contact-data -->
+                <p class="smalltext">pustynna.burza@dabrowagornicza.zhp.pl</p>
+                <p class="smalltext">+48 123 123 123</p>
+                <div class="c-socials">
+                    <a href="#"><p class="text"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</p></a>
+                    <a href="#"><p class="text"><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</p></a>
+                </div> <!-- End of c-socials -->
+            </section> <!-- End of contact-info -->
+            <section class="contact-form">
+                <div class="contact-form-wrapper"></div>
+            </section> <!-- End of contact-form -->
+        </div> <!-- End of c-first -->
+        <section class="c-us">
+            <h2 class="h3 c-us-title">KOMENDA GRY</h2>
+            <div class="c-us-list">
+                <div class="c-us-div">
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                </div> <!-- End of c-us-div -->
+                <div class="div c-us-staff">
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                    <!-- # Start of single person -->
+                    <div class="c-person">
+                        <div class="c-person-pic">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                        </div>
+                        <div class="c-person-data">
+                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
+                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                        </div>
+                        <div class="c-person-contactdata">
+                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                        </div>
+                    </div> 
+                    <!-- # End of single person -->
+                </div> <!-- End of c-us-staff -->
+            </div> <!-- End of c-us-list -->
+        </section> <!-- End of c-us -->
+    </div> <!-- End of c-wrapper -->
     
 </article>
 
