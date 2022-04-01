@@ -44,6 +44,10 @@ function pustynnaburza_register_scripts() {
 	if(is_page_template('templates/qna.php') == true) {
 		wp_enqueue_script('pustynnaburza-qna', get_template_directory_uri() .'/assets/js/qna.js', array(), '1.0', true);
 	}
+
+	if(is_page_template('templates/aktualnaedycja.php') == true) {
+		wp_enqueue_script('pustynnaburza-timer', get_template_directory_uri() .'/assets/js/timer.js', array(), '1.0', true);
+	}
 }
 
 add_action('wp_enqueue_scripts', 'pustynnaburza_register_scripts');

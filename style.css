@@ -140,6 +140,11 @@ a.button {
   font-weight: 400;
 }
 
+.smalltext {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
 .btn:hover {
   background-color: var(--darkgray);
 }
@@ -594,6 +599,88 @@ nav {
 
 .more-link {
   color: var(--gold);
+}
+
+/* Current edition */
+
+#current-edition {
+  background-color: var(--white) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ce-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.ce-toptext {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ce-desc {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.ce-countdown-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.ce-countdown {
+  background-color: var(--whitesmoke);
+  width: 100%;
+  min-height: 150px;
+}
+
+.ce-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--brightgray);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ce-about-content {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.ce-about-text {
+  display: flex;
+  font-weight: bold;
+}
+
+.ce-about-blank {
+  width: 0px;
+  height: 0px;
+}
+
+@media screen and (min-width: 880px) {
+
+  .ce-about-text {
+    text-align: left;
+    width: 50%;
+  }
+
+  .ce-about-blank {
+    width: 50%;
+    height: 1px;
+  }
+
 }
 
 /* QnA page */
