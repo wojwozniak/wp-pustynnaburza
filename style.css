@@ -85,11 +85,11 @@ a.button {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .normalplus {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .btn {
@@ -349,6 +349,20 @@ nav {
   padding-bottom: 10vh;
 }
 
+.c-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+@media screen and (min-width: 720px) {
+  .c-wrapper {
+    text-align: left;
+  }
+}
 
 /* ### Front Page ### */
 
@@ -689,6 +703,43 @@ nav {
 
 }
 
+/* ### Kronika ### */
+
+#kronika {
+  background-color: var(--white) !important;
+}
+
+.k-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  .k-title {
+    width: 50vw;
+  }
+  
+}
+
+.k-past-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.k-past {
+  background-color: var(--brightgray);
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin: 40px;
+  
+}
+
 /* ### QnA page ### */
 
 .qna {
@@ -701,10 +752,17 @@ nav {
 .qna-title {
   margin: 0px 5vw 0px 5vw;
   width: 85vw;
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1vh;
+}
+
+@media screen and (min-width: 720px) {
+  .qna-title {
+    text-align: left;
+  }
+  
 }
 
 .qna-wrapper {
@@ -805,15 +863,6 @@ nav {
   margin-bottom: 50px;
 }
 
-.c-wrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
 .contact-data {
   margin-bottom: 20px;
 }
@@ -893,9 +942,6 @@ nav {
 }
 
  @media screen and (min-width: 720px) {
-  .c-wrapper {
-    text-align: left;
-  }
 
   .c-first {
     flex-direction: row;
