@@ -525,7 +525,7 @@ nav {
 
 }
 
-/* single post */
+/* ### single post ### */
 
 .article {
   padding: 0px 10vw 0px 10vw;
@@ -551,7 +551,7 @@ nav {
   gap: 10px;
 }
 
-/* index.php */
+/* ### index.php ### */
 
 #index-background  {
   background-color: var(--whitesmoke);
@@ -607,7 +607,7 @@ nav {
   color: var(--gold);
 }
 
-/* Current edition */
+/* ### Current edition ### */
 
 #current-edition {
   background-color: var(--white) !important;
@@ -689,7 +689,7 @@ nav {
 
 }
 
-/* QnA page */
+/* ### QnA page ### */
 
 .qna {
   display: flex;
@@ -860,7 +860,9 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+
+
 }
 
 /* Single person */
@@ -869,14 +871,21 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%;
   margin: 1%;
+  text-align: center;
+  width: 80%;
+  height: auto;
 }
 
 .c-person-pic {
-  max-height: auto;
-  width: 22vw;
+  width: 170px;
+  height: auto;
   margin-bottom: 10px;
+}
+
+.c-pic {
+  max-width:100%;
+  max-height:100%;
 }
 
 .c-person-data p {
@@ -901,14 +910,7 @@ nav {
   }
 
   .c-person {
-    width: 30%;
-  }
-
-}
-
-@media screen and (max-width: 450px) {
-  .c-person {
-    width: 90%;
+    width: 25vw;
   }
 }
 
@@ -1039,7 +1041,7 @@ nav {
 
 @media screen and (max-width: 880px) {
   .footer-links {
-    gap: 14vw;
+    gap: 8vw;
   }
 
   .footer-content {
@@ -1050,7 +1052,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 600px) {
   .footer-links {
     flex-direction: column;
     gap: 3vh;

@@ -32,7 +32,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
@@ -48,7 +48,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
@@ -62,7 +62,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
@@ -76,7 +76,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
@@ -90,7 +90,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
@@ -104,7 +104,7 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
