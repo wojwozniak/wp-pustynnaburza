@@ -375,7 +375,7 @@ nav {
 
 .small-section {
   height: auto;
-  min-height: 750px;
+  padding-bottom: 30px;
 }
 
 .bigicon {
@@ -420,8 +420,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 15Fpx;
 }
+
 .deadline-format {
   background: var(--basicgray);
   color: var(--white);
@@ -479,10 +480,12 @@ nav {
 
 .join-btn {
   margin: 15px;
+  background-color: var(--gold);
 }
 
 .zgloszenia {
   padding-bottom: 20px;
+  padding-top: 20px;
   font-size: 1.1rem;
   margin: 0px;
 }
@@ -511,32 +514,39 @@ nav {
 /* Localization section */
 
 #description {
+  background-color: var(--brightgray);
   display: flex;
   justify-content: center;
-  background-color: var(--brightgray);
-  color: var(--black);
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#description h2 {
-  padding-top: 5vh;
-  font-size: 3rem;
-  text-align: center; 
+.desc-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+  color: var(--black);
+  width: 80%;
+  align-items: center;
+}
+
+.d-more {
+  background-color: var(--gold);
 }
 
 /* End section */
 
-.end-section {
-  min-height: 400px;
+#end-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 30px;
   background-color: var(--whitesmoke);
-  display: flex;
-  justify-content: center;
-}
-
-.end-title {
-  font-size: 2rem;
   color: var(--black);
-  padding-top: 40px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ### single post ### */

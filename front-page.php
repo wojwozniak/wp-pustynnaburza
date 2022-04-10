@@ -23,10 +23,24 @@
 	</section>
 	<!-- Sekcja z opisem -->
 	<section id="description" class="section">
-			<h2>O Pustynnej Burzy</h2>
+		<div class="desc-content">
+			<h2 class="h2">O PUSTYNNEJ BURZY</h2>
+				<p class="text">
+					Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, która testuje wytrzymałość uczestników podczas trzydniowych zmagań na terenie Jury Krakowsko-Częstochowskiej.
+					Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne, czy takie z zakresu pierwszej pomocy lub terenoznawstwa.
+					Reaktywowana edycja imprezy odbędzie się w maju 2023 roku w Dąbrowie Górniczej!
+				</p>
+				<button class="btn d-more">
+					Dowiedz się więcej!
+				</button>
+				
+		</div>	
 	</section>
-	<section class="end-section">
-		<h2 class="end-title">Masz jeszcze jakieś pytania?</h2>
+	<section id="end-section">
+		<h2 class="h2">MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
+		<button class="btn d-more">
+					Skontaktuj się z nami!
+				</button>
 	</section>
 
 </div> <!-- container div -->
