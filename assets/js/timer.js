@@ -56,7 +56,7 @@ const months = [
   
   // Text inside zgloszenia class
   
-  zgloszenia.textContent = `Koniec zgłoszeń w ${weekday}, ${date} ${month} ${year} o godzinie ${hours}:${minutes}.`;
+  zgloszenia.textContent = `Zgłoszenia ruszają w ${weekday}, ${date} ${month} ${year} o godzinie ${hours}:${minutes}!`;
   
   // Time calculation
   const futureTime = futureDate.getTime();
@@ -150,7 +150,7 @@ const months = [
   
     if (t < 0) {
       clearInterval(countdown);
-      deadline.innerHTML = `<h4 class="expired">Czas zgłoszeń się skończył! </h4>`;
+      deadline.innerHTML = `<h4 class="expired">Zgłoszenia ruszyły! </h4>`;
     }
   }
   // countdown;

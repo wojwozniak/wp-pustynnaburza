@@ -658,9 +658,7 @@ nav {
 }
 
 .ce-countdown {
-  background-color: var(--whitesmoke);
   width: 100%;
-  min-height: 150px;
 }
 
 .ce-about {
