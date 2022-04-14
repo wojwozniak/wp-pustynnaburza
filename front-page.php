@@ -14,7 +14,7 @@
 	<section id="opis" class="section small-section opis">
 		<!-- Odliczanie -->
 		<article class="opis-content">
-        <h2 class="h2 timer-title">Zgłoszenia ruszyły!</h2>
+        <h2 class="h2 timer-title">Odliczamy czas do rozpoczęcia zgłoszeń!</h2>
 		<?php get_template_part('template-parts/front-page', 'timer'); ?>
         <div class="button-container"><button class="btn join-btn"><i class="fa-solid fa-check bigicon"></i>&nbsp Zgłaszam swój patrol!</button></div>
 		<!--W zgloszenia pojawi się napis zgłoszenia kończą się i obliczona data -->
