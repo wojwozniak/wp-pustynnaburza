@@ -30,6 +30,9 @@
 			</div> <!-- End of ce-about-text -->
 		</div> <!-- End of ce-about-content -->
 	</section>  <!-- End of ce-about -->
+	<section>
+		<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/o-grze.png" alt="Grafika przedstawiająca elementy gry">
+	</section>
 	
 </article>
 <?php get_footer(); ?>

@@ -675,7 +675,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--brightgray);
+  background-color: var(--gold);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -709,6 +709,12 @@ nav {
     height: 1px;
   }
 
+}
+
+.ce-img {
+  width: 100%;
+  height: auto;
+  padding: 40px;
 }
 
 /* ### Kronika ### */
