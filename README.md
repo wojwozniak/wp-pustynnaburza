@@ -32,7 +32,7 @@ It is a non-profit work and my first project of such a big size. Work is still i
   - Most of page-specific styles are using naming covention as below:
 
 
-~~~
+```css
 
 /* ### Current edition ### */
 
@@ -49,10 +49,7 @@ It is a non-profit work and my first project of such a big size. Work is still i
   width: 80%;
 }
     
-
-~~~
-
-
+```
 
 
 ### After adding this template to the site setup is needed:
