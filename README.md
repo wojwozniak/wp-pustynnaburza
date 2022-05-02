@@ -4,7 +4,7 @@ Wordpress theme created for Hufiec ZHP Dąbrowa Górnicza for their's flagship e
 
 ## About project
 
-It is a non-profit work and my first project of this size. Work is still in progress but most of the key features are already there!
+It is a non-profit work and my first project of such a big size. Work is still in progress but key features are already there. Mostly style updates and code clean-up is needed.
 
 ## File structure
 
@@ -59,3 +59,8 @@ It is a non-profit work and my first project of this size. Work is still in prog
 - Add menu links to both available menus
 - Set the front page to front-page.php and post the page to index.php
 - Add logo using WordPress wp-admin settings
+
+
+### Other information
+
+Feel free to use all the code from this project
