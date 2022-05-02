@@ -61,6 +61,6 @@ It is a non-profit work and my first project of such a big size. Work is still i
 - Add logo using WordPress wp-admin settings
 
 
-### Other information
+### Other info
 
-Feel free to use all the code from this project
+The website was created for ZHP Hufiec Dąbrowa Górnicza (polish non-profit organisation), however feel free to reuse every part of the code however you want!
