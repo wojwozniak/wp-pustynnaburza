@@ -803,8 +803,17 @@ nav {
   margin: 40px;
   font-weight: bold !important;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
-  border-radius: 5%;
-  
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.k-past:hover {
+  background-color: var(--basicgray);
+  transition: 0.4s;
+}
+
+.k-past:active {
+  transform: translateY(-2px);
 }
 
 /* ### QnA page ### */
@@ -844,6 +853,7 @@ nav {
   width: 100%;
   border-bottom: 3px solid var(--whitesmoke);
 }
+
 .question-title {
   display: flex;
   justify-content: space-between;
