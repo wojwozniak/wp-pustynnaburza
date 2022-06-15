@@ -114,6 +114,19 @@ a.button {
   width: 100%;
 }
 
+.btn:hover {
+  background-color: #b8960d;
+}
+
+.btn:active {
+  transform: translateY(-2px);
+  border: 1px solid black;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
 
 /* Headers */
 
@@ -149,10 +162,6 @@ a.button {
 .smalltext {
   font-size: 14px;
   font-weight: 400px;
-}
-
-.btn:hover {
-  background-color: var(--darkgray);
 }
 
 /* ### Main navigation, header ### */
@@ -398,11 +407,20 @@ nav {
 
 /* ### Front Page ### */
 
+#container {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 15vh;
+  overflow-y: scroll;
+}
+
 
 .section { 
   height: 120vh;
   padding-right: 2vw;
   padding-left: 2vw;
+  scroll-snap-align: start;
 }
 
 .small-section {
@@ -831,7 +849,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-transform: capitalize;
-  padding-bottom: 1rem;
 }
 
 .question-title p {
