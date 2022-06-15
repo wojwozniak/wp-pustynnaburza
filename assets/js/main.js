@@ -23,8 +23,10 @@ navToggle.addEventListener("click", () => {
   const containerHeight = linksContainer.getBoundingClientRect().height;
   if (containerHeight === 0) {
     linksContainer.style.height = `${linksHeight}px`;
+    navToggle.classList.add("nav-toggle-active");
   } else {
     linksContainer.style.height = 0;
+    navToggle.classList.remove("nav-toggle-active");
   }
 });
 

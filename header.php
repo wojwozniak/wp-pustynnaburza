@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Strona Akcji Pustynna Burza">
-    <meta name="author" content="https://www.linkedin.com/in/wojciech-wo%C5%BAniak-064611211/">    
+    <meta name="author" content="https:/wojwozniak.github.io/">    
    <!--<link rel="shortcut icon" href="images/assets/logo.png"> -->
 	<?php
 		wp_head();

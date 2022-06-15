@@ -191,7 +191,7 @@ nav {
   filter: invert(100%);
 }
 
-.white a{
+.white a {
   color: var(--white) !important;
 }
 
@@ -203,15 +203,18 @@ nav {
 
 .links {
   list-style-type: none;
+  border-bottom: 1px solid black;
 }
 
 .links-container {
   height: 0;
   overflow: hidden;
 }
+
 .show-links {
   height: 200px;
 }
+
 .links a {
   background: var(--white);
   color: var(--black);
@@ -221,6 +224,10 @@ nav {
   padding: 0.75rem 0;
 }
 
+.links li {
+  border-top: 1px dotted black;
+}
+
 /* Full screen navbar and links */
 
 @media screen and (min-width: 1100px) {
@@ -228,6 +235,7 @@ nav {
   nav {
     background: transparent;
   }
+
   .nav-center {
     width: 95vw;
     margin: 0 auto;
@@ -235,22 +243,28 @@ nav {
     align-items: center;
     justify-content: space-between;
   }
+
   .nav-header {
     padding: 0;
   }
+
   .nav-toggle {
     display: none;
   }
+
   .links-container {
     height: auto !important;
     display: flex;
     align-items: bottom;
   }
+
   .links {
     display: flex;
     margin: 0;
     padding: 0;
+    border: none;
   }
+
   .links a {
     display: flex;
     background: transparent;
@@ -258,6 +272,11 @@ nav {
     margin: 1rem;
     padding: 0;
   }
+
+  .links li {
+    border: none;
+  }
+ 
 
   [aria-current]:not([aria-current="false"]) {
     font-weight: bold;
@@ -277,12 +296,25 @@ nav {
   background: transparent;
   border-color: transparent;
   cursor: pointer;
+  transition: 0.4s;
 }
+
 .nav-toggle:hover {
   color: var(--brightblack);
   transform: rotate(90deg);
   transition: 0.4s;
 }
+
+/* Not a pseudoselector, class for JS to keep it rotated */
+.nav-toggle-active {
+  transform: rotate(90deg);
+}
+
+.nav-toggle:active, .nav-toggle:focus {
+  outline: 0;
+  border: none;
+}
+
 
 /* Top link button */
 
