@@ -5,8 +5,9 @@
                   <div class="socials">
                         <h3 class="h3">ZNAJDŹ NAS TUTAJ</h3>
                         <ul class="text">
-                              <a href="#"><li><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</li></a>
-                              <a href="#"><li><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</li></a>
+                              <li>
+                              <a href="https://www.facebook.com/grapustynnaburza" target="_blank"><li><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</a></li>
+                              <li><a href="https://www.instagram.com/_pustynnaburza_" target="_blank"><li><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</a></li>
                         </ul>             
                   </div>
                   <div class="footer-menu-wrapper">
@@ -34,7 +35,9 @@
                   <!--JS script automatically adds years to this paragraph - want to change text? Change it in js file! -->
                   <p class="copyright">&nbsp;Copyright © 2022 Pustynna Burza </p>
                   <p class ="footer-separator">&nbsp;|</p>
-                  <a href="https://dabrowagornicza.zhp.pl/" target="_blank"><p class="host">&nbsp; ZHP Hufiec Dąbrowa Górnicza</p></a>
+                  <p class="host"><a href="https://dabrowagornicza.zhp.pl/" target="_blank">&nbsp; ZHP Hufiec Dąbrowa Górnicza</a></p>
+                  <p class ="footer-separator">&nbsp;|</p>
+                  <a id="author" href="https://github.com/wojwozniak">&nbsp;Autor</a>
             </div>
       </div>            
       
