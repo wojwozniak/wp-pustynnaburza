@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Strona Akcji Pustynna Burza">
-    <meta name="author" content="https:/wojwozniak.github.io/">    
-   <!--<link rel="shortcut icon" href="images/assets/logo.png"> -->
+    <meta name="author" content="https://github.com/wojwozniak">    
+   <link rel="icon" type="image/x-icon" href="assets\images\favicon.ico">
 	<?php
 		wp_head();
 	?>
