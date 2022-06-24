@@ -72,8 +72,8 @@ body {
   background-attachment: fixed;
   background-position: center; 
   flex-direction: column;
-  color: var(--brightblack);
-  font-family: 'Roboto', sans-serif;
+  color: var(--black);
+  font-family: 'Roboto', sans-serif !important;
 }
 
 a.button {
@@ -103,15 +103,14 @@ a.button {
   cursor: pointer;
   display: flex;
   font-size: 18px;
+  padding: 20px 15px 20px 15px;
   justify-content: center;
   line-height: 28px;
-  max-width: 50%;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
   text-decoration: none;
   transition: all .2s;
   touch-action: manipulation;
-  width: 100%;
+  width: 240px;
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -212,12 +211,13 @@ nav {
 
 .links {
   list-style-type: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .links-container {
   height: 0;
   overflow: hidden;
+  transition: all 0.4s ease-in-out;
 }
 
 .show-links {
@@ -235,6 +235,10 @@ nav {
 
 .links li {
   border-top: 1px dotted black;
+}
+
+.links li:first-of-type {
+  border-top: none !important;
 }
 
 /* Full screen navbar and links */
@@ -309,7 +313,7 @@ nav {
 }
 
 .nav-toggle:hover {
-  color: var(--brightblack);
+  color: var(--gold);
   transform: rotate(90deg);
   transition: 0.4s;
 }
@@ -317,6 +321,7 @@ nav {
 /* Not a pseudoselector, class for JS to keep it rotated */
 .nav-toggle-active {
   transform: rotate(90deg);
+  color: var(--gold);
 }
 
 .nav-toggle:active, .nav-toggle:focus {
@@ -330,8 +335,8 @@ nav {
 .top-link {
   font-size: 1.25rem;
   position: fixed;
-  bottom: 3rem;
-  right: 3rem;
+  bottom: 2rem;
+  right: 2rem;
   background: var(--brightgray);
   width: 2rem;
   height: 2rem;
@@ -540,13 +545,6 @@ nav {
   margin: 0px;
 }
 
-@media screen and (min-width: 1100px) {
-.join-btn {
-  margin-top: 7vh;
-  font-size: 1.8rem;
-  }
-}
-
 /* Crossing */
 
 .spacer {
@@ -631,8 +629,13 @@ nav {
   background-color: var(--whitesmoke);
 }
 
+#index-title {
+  padding-left: 15px;
+}
+
 .post-wrapper {
-  padding: 0px 3vw 0px 3vw;
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -647,6 +650,23 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .post-wrapper {
+    padding: 0vw 3vw 0vw 3vw;
+  }
+
+  .post-elements {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .thumbnail {
+    height: 300px !important;
+    width: 300px !important;
+  }
 }
 
 .media-body {
@@ -681,19 +701,23 @@ nav {
   color: var(--gold);
 }
 
+.more-link:hover {
+  color: var(--darkorange);
+}
+
 /* ### Current edition ### */
 
 #current-edition {
   background-color: var(--white) !important;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .ce-content {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
 }
 
 .ce-toptext {
@@ -771,6 +795,11 @@ nav {
 
 #kronika {
   background-color: var(--white) !important;
+}
+
+#k-wrapper {
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
 }
 
 .k-title {
@@ -926,6 +955,12 @@ nav {
   text-align: left;
 }
 
+#contact-wrapper {
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
+  padding: 0px !important;
+}
+
 .c-wrapper section {
   margin-bottom: 50px;
 }
@@ -947,11 +982,6 @@ nav {
   margin-bottom: 2px;
 }
 
-.c-socials a {
-  text-decoration: none;
-  color: var(--black);
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -960,7 +990,7 @@ nav {
 
 .contact-form-wrapper {
   width: 90%;
-  min-height: 400px;
+  min-height: 240px;
   background-color: var(--whitesmoke);
 }
 
@@ -1182,6 +1212,11 @@ nav {
   .footer-content {
     padding-bottom: 20vh;
   }
+
+  .footer-separator {
+    display: none;
+    position: absolute;
+  }
 }
 
 /* Footer menu */
@@ -1229,4 +1264,15 @@ footer ul {
 .hide {
   position: absolute;
   visibility: hidden;
+}
+
+/* Social links */
+
+.socials {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.socials a {
+  color: var(--black);
 }
