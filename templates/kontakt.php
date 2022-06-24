@@ -2,9 +2,9 @@
 	/* Template Name: Kontakt */
 	get_header();
 ?>
-
+ 
 <article id="contact-section" class="single-wrapper site">
-    <div class="c-wrapper">
+    <div id="contact-wrapper" class="c-wrapper">
     <h1 class="contact-title h3">KONTAKT</h1>
         <div class="c-first">
             <section class="contact-info">
@@ -15,10 +15,9 @@
                     <p class="smalltext normalplus">ul. Królowej Jadwigi 8</p>
                 </div> <!-- End of contact-data -->
                 <p class="smalltext">pustynna.burza@dabrowagornicza.zhp.pl</p>
-                <p class="smalltext">+48 123 123 123</p>
+                <p class="smalltext">+48 123 123 123</p> 
                 <div class="c-socials">
-                    <a href="#"><p class="text"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</p></a>
-                    <a href="#"><p class="text"><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</p></a>
+                <?php get_template_part('template-parts/social-links'); ?>
                 </div> <!-- End of c-socials -->
             </section> <!-- End of contact-info -->
             <section class="contact-form">
