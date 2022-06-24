@@ -16,10 +16,8 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-// Selections 
-
-const topLink = document.querySelector(".top-link");
 // Top link
+const topLink = document.querySelector(".top-link");
 
 window.addEventListener("scroll", () => {
   const scrollHeight = window.pageYOffset;
@@ -31,7 +29,6 @@ window.addEventListener("scroll", () => {
 });
 
 // Copyright year updating
-
 const copyrightParagraph = document.querySelector('.copyright');
 
 window.addEventListener('DOMContentLoaded', () => {
