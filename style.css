@@ -314,14 +314,12 @@ nav {
 
 .nav-toggle:hover {
   color: var(--gold);
-  transform: rotate(90deg);
   transition: 0.4s;
 }
 
 /* Not a pseudoselector, class for JS to keep it rotated */
 .nav-toggle-active {
   transform: rotate(90deg);
-  color: var(--gold);
 }
 
 .nav-toggle:active, .nav-toggle:focus {
