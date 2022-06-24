@@ -1,17 +1,3 @@
-// ?
-$(document).ready(() => {
-	
-	$(window).scroll(() => {
-		if ($(this).scrollTop() > 1){  
-			$('.page-title').addClass("sticky");
-		}
-		else{
-			$('.page-title').removeClass("sticky");
-		}
-	});
-
-});
-
 // ********** Navbar button ************
 
 const navToggle = document.querySelector(".nav-toggle");
@@ -30,27 +16,9 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-// ********** Top link button and footer seperator ************
-
-
 // Selections 
 
 const topLink = document.querySelector(".top-link");
-const footerSeparator = document.querySelector('.footer-separator');
-
-
-//Footer separator
-
-window.addEventListener("resize",  () => {
-  const viewportWidth = window.innerWidth;
-  if (viewportWidth < 540) {
-    footerSeparator.classList.add("hide");
-  }
-  else {
-    footerSeparator.classList.remove("hide");
-  }
-});
-
 // Top link
 
 window.addEventListener("scroll", () => {
