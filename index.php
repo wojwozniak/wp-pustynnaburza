@@ -2,7 +2,7 @@
 <!-- Podstawa strony z listą postów-->
 		<article id="index-background" class="single-wrapper">
 			<div class="post-wrapper">
-				<h2 class="h2">AKTUALNOŚCI</h2>
+				<h2 id="index-title" class="h2">AKTUALNOŚCI</h2>
 				<?php
 					if( have_posts() ){
 						while( have_posts() ) {
