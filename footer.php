@@ -25,21 +25,21 @@
                   <h3 class="h3">PARTNERZY</h3>
             </div>
       </div>
-      <div class="ending-wrapper">
-            <div class="footer-logo"></div>
-            <div class="ending-wrapper-text text">
-                  <!--JS script automatically adds years to this paragraph - want to change text? Change it in js file! -->
-                  <p class="copyright">&nbsp;Copyright © 2022 Pustynna Burza </p>
-                  <p class ="footer-separator">&nbsp;|&nbsp;</p>
-                  <p class="host"><a href="https://dabrowagornicza.zhp.pl/" target="_blank">ZHP Hufiec Dąbrowa Górnicza</a></p>
-                  <p class ="footer-separator">&nbsp;|&nbsp;</p>
-                  <p id="author"><a href="https://github.com/wojwozniak">Autor</a></p>
-            </div>
-      </div>            
-      
+      <div class="footer-logo"></div>  
 </footer>
+<div id="footer-end" class="text">
+      <p class ="footer-separator">&nbsp;&nbsp;</p>
+      <!--JS script (main.js) automatically adds years to this paragraph -->
+      <p class="copyright">Copyright © 1995-2022 Pustynna Burza</p>
+      <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+      <p class="host"><a href="https://dabrowagornicza.zhp.pl/" target="_blank">ZHP Hufiec Dąbrowa Górnicza</a></p>
+      <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+      <p class="host"><a href="https://zhp.pl/" target="_blank">Związek Harcerstwa Polskiego</a></p>
+      <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+      <p id="author"><a href="https://github.com/wojwozniak">Autor</a></p>
+      <p class ="footer-separator">&nbsp;&nbsp;</p>
 
- <?php
-    	wp_footer();
-    ?>
+<?php
+wp_footer();
+?>
 </body>
