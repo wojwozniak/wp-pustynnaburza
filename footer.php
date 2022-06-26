@@ -36,7 +36,7 @@
       <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
       <p class="host"><a href="https://zhp.pl/" target="_blank">Związek Harcerstwa Polskiego</a></p>
       <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
-      <p id="author"><a href="https://github.com/wojwozniak">Autor</a></p>
+      <p id="author"><a href="https://github.com/wojwozniak" target="_blank">Autor</a></p>
       <p class ="footer-separator">&nbsp;&nbsp;</p>
 
 <?php
