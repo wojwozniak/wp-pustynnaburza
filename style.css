@@ -3,7 +3,7 @@
 /*
 Theme Name: Pustynna Burza
 Text Domain: Pustynna Burza
-Version: 0.9.2
+Version: 0.9.6
 Description: Theme made for website about "Pustynna Burza" - event organised by scouts from ZHP Dąbrowa Górnicza
 Tags: responsive, topbar
 Author: Wojciech Woźniak
@@ -76,13 +76,13 @@ a.button {
   cursor: pointer;
   display: flex;
   font-size: 18px;
-  padding: 25px 20px 25px 20px;
+  padding: 25px 15px 25px 15px;
   justify-content: center;
   line-height: 28px;
   text-decoration: none;
   transition: all .2s;
   touch-action: manipulation;
-  width: 250px;
+  width: 260px;
   font-weight: bold;
 }
 
@@ -344,12 +344,11 @@ nav {
   flex-direction: column;
   scroll-snap-type: y proximity;
   scroll-padding-top: 15vh;
-  overflow-y: scroll;
 }
 
 
 .section { 
-  height: 120vh;
+  height: 100vh;
   padding-right: 2vw;
   padding-left: 2vw;
   scroll-snap-align: start;
@@ -428,7 +427,7 @@ nav {
   margin-bottom: 0.25rem;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 960px) {
 
   .deadline {
     padding: 0px;
@@ -437,16 +436,18 @@ nav {
     width: 19vw;
     height: 19vw;
     padding: 0px;
-    }
+  }
 
   .deadline-format span {
     letter-spacing: 0.1vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
+
   .opis-content h3 {
     font-size: 3rem;
 
   }
+
   .deadline h4:not(.expired) {
     text-align: center;
     font-size: 5vw;
