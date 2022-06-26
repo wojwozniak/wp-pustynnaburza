@@ -46,6 +46,3 @@
 			</div>
 		</div>
 	</nav>
-	<a class="scroll-link top-link" href="#home">
-      <i class="fas fa-arrow-up"></i>
-    </a>
