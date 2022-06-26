@@ -14,41 +14,15 @@ Author URI: https://github.com/wojwozniak
 
 :root {
     /* Theme's colour scheme */
-    --brightgreen: rgb(166, 206, 57);
-    --basicgreen: rgb(134, 163, 21);
-    --darkgreen: rgb(74, 123, 38);
-    --brightpurple: rgb(123, 90, 162);
-    --basicpurple: rgb(92, 56, 150);
-    --darkpurple: rgb(54, 33, 94);
-    --brightorange: rgb(253, 187, 99);
-    --basicorange: rgb(245, 130, 32);
-    --darkorange: rgb(229, 102, 38);
-    --brightred: rgb(241, 90, 56);
-    --basicred: rgb(206, 24, 30);
-    --darkred: rgb(177, 17, 22);
-    --brightnavy: rgb(109, 138, 198);
-    --basicnavy: rgb(8, 76, 161);
-    --darknavy: rgb(32, 53, 129);
-    --brightyellow: rgb(249, 202, 79);
-    --basicyellow: rgb(239, 172, 31);
-    --darkyellow: rgb(229, 150, 37);
-    --brightblue: rgb(129, 208, 237);
-    --basicblue: rgb(5, 182, 230);
-    --darkblue: rgb(0, 134, 170);
-    --brightbrown: rgb(194, 125, 67);
-    --basicbrown: rgb(157, 85, 40);
-    --darkbrown: rgb(87, 49, 25);
     --brightgray: rgb(194, 201, 208);
     --basicgray: rgb(151, 162, 171);
     --darkgray: rgb(101, 118, 129);
-    --brightpurple: rgb(166, 71, 128);
-    --basicpurple: rgb(133, 12, 112);
-    --darkpurple: rgb(95, 0, 84);
     --brightblack: #36454f;
     --white: rgb(255, 255, 255);
     --whitesmoke: #f0f0f0;
     --black: #000000;
     --gold: #FFC700;
+    --darkgold: #b8960d;
     --spacing: 0.25rem;
     --radius: 0.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -103,18 +77,18 @@ a.button {
   cursor: pointer;
   display: flex;
   font-size: 18px;
-  padding: 20px 15px 20px 15px;
+  padding: 25px 20px 25px 20px;
   justify-content: center;
   line-height: 28px;
   text-decoration: none;
   transition: all .2s;
   touch-action: manipulation;
-  width: 240px;
+  width: 250px;
   font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #b8960d;
+  background-color: var(--darkgold);
 }
 
 .btn:active {
@@ -700,7 +674,7 @@ nav {
 }
 
 .more-link:hover {
-  color: var(--darkorange);
+  color: var(--darkgold);
 }
 
 /* ### Current edition ### */
@@ -925,21 +899,22 @@ nav {
 .question-text {
   display: none;
 }
+
 .show-text .question-text {
   display: block;
 }
+
 .minus-icon {
   display: none;
 }
+
 .show-text .minus-icon {
   display: inline;
 }
+
 .show-text .plus-icon {
   display: none;
 }
-
-
-
 
 /* ### Kontakt ### */
 
