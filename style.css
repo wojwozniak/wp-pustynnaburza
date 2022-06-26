@@ -34,7 +34,6 @@ Author URI: https://github.com/wojwozniak
 }
 
 html,body {
-  min-height: 100%;
   width: 100%;
   overflow: auto;
 }
@@ -300,50 +299,6 @@ nav {
   outline: 0;
   border: none;
 }
-
-
-/* Top link button */
-
-.top-link {
-  font-size: 1.25rem;
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background: var(--brightgray);
-  width: 2rem;
-  height: 2rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  color: var(--white);
-  animation: bounce 2s ease-in-out infinite;
-  visibility: hidden;
-  z-index: -100;
-}
-
-.top-link:hover {
-  color: var(--black);
-  text-decoration: none;
-}
-
-.show-link {
-  visibility: visible;
-  z-index: 100;
-}
-
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-
 
 /* ### ALL PAGES ### */
 
@@ -797,11 +752,11 @@ nav {
 
 .k-past {
   background-color: var(--brightgray);
-  height: 250px;
-  width: 250px;
-  line-height: 250px;
+  height: 225px;
+  width: 225px;
+  line-height: 225px;
   text-align: center;
-  margin: 40px;
+  margin: 30px;
   font-weight: bold !important;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
   border-radius: 20px;
@@ -1140,7 +1095,16 @@ nav {
 /* Dla mediow */
 
 
+/* Social links */
 
+.socials {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.socials a {
+  color: var(--black);
+}
 
 /* ### Footer ### */
 
@@ -1150,12 +1114,15 @@ nav {
   background-color: var(--brightgray);
   color: var(--black);
   padding: 5vh 4vw 3vh 4vw;
+  align-items: flex-start;
 }
 
 .footer-content {
   display: flex;
   flex-direction: row;
   gap: 14vw;
+  width: 100%;
+  padding-bottom: 5vh;
 }
 
 .footer-links {
@@ -1173,26 +1140,15 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    padding-bottom: 20vh;
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer-links {
     flex-direction: column;
-    gap: 3vh;
-  }
-  .footer-content {
-    padding-bottom: 20vh;
-  }
-
-  .footer-separator {
-    display: none;
-    position: absolute;
+    gap: 2vh;
   }
 }
-
-/* Footer menu */
 
 .footer-menu {
   background-color: transparent;
@@ -1214,13 +1170,12 @@ footer ul {
   padding: 0px;
 }
 
-/* Rest of footer */
-
 .footer-logo {
   background-image: url("./assets/images/logo-small.png");
   background-size: contain;
+  background-repeat: no-repeat;
   height: 100px;
-  width: 100px;
+  width: 200px;
 }
 
 .ending-wrapper-text {
@@ -1239,13 +1194,34 @@ footer ul {
   visibility: hidden;
 }
 
-/* Social links */
-
-.socials {
-  list-style-type: none;
-  padding: 0px;
+#footer-end {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 8px;
 }
 
-.socials a {
-  color: var(--black);
+#footer-end a {
+  color: black;
 }
+
+#footer-end p {
+  margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-separator {
+    display: none;
+    position: absolute;
+  }
+  
+  #footer-end {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
