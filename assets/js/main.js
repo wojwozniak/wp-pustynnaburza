@@ -16,18 +16,6 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-// Top link
-const topLink = document.querySelector(".top-link");
-
-window.addEventListener("scroll", () => {
-  const scrollHeight = window.pageYOffset;
-  if (scrollHeight > 900) {
-    topLink.classList.add("show-link");
-  } else {
-    topLink.classList.remove("show-link");
-  }
-});
-
 // Copyright year updating
 const copyrightParagraph = document.querySelector('.copyright');
 
@@ -35,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
   var copyrightDate = new Date();
   var copyrightYear = copyrightDate.getFullYear();
   if (copyrightYear > 2022) {
-    copyrightParagraph.textContent = `Copyright © 2022-${copyrightYear} Pustynna Burza`;
+    copyrightParagraph.textContent = `Copyright © 1995-${copyrightYear}<br>Pustynna Burza`;
   }
 });
 
