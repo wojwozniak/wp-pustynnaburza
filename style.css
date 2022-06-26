@@ -884,6 +884,10 @@ nav {
   text-align: left;
 }
 
+#contact-section a {
+  color: var(--black);
+}
+
 #contact-wrapper {
   margin: 0px 5vw 0px 5vw;
   width: 85vw;

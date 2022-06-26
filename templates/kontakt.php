@@ -14,7 +14,7 @@
                     <p class="smalltext normalplus">41-300 Dąbrowa Górnicza</p>
                     <p class="smalltext normalplus">ul. Królowej Jadwigi 8</p>
                 </div> <!-- End of contact-data -->
-                <p class="smalltext">pustynna.burza@dabrowagornicza.zhp.pl</p>
+                <p class="smalltext"><a href="mailto:pustynna.burza@dabrowagornicza.zhp.pl">pustynna.burza@dabrowagornicza.zhp.pl</a></p>
                 <p class="smalltext">+48 123 123 123</p> 
                 <div class="c-socials">
                 <?php get_template_part('template-parts/social-links'); ?>
