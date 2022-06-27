@@ -164,8 +164,9 @@ nav {
 /* logo */
 
 .logo {
-  height: 120px;
+  height: 80px;
   width: auto;
+  margin: 5px;
 }
 
 .invertcolor {
@@ -636,7 +637,7 @@ nav {
 /* ### Current edition ### */
 
 #current-edition {
-  background-color: var(--white) !important;
+  background-color: var(--whitesmoke) !important;
   display: flex;
   flex-direction: column;
 }
@@ -722,7 +723,7 @@ nav {
 /* ### Kronika ### */
 
 #kronika {
-  background-color: var(--white) !important;
+  background-color: var(--whitesmoke) !important;
 }
 
 #k-wrapper {
@@ -877,7 +878,7 @@ nav {
 /* Contact data */
 
 #contact-section {
-  background-color: var(--white) !important;
+  background-color: var(--whitesmoke) !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -924,7 +925,7 @@ nav {
 .contact-form-wrapper {
   width: 90%;
   min-height: 240px;
-  background-color: var(--whitesmoke);
+  background-color: var(--white);
 }
 
 /* Person list */
@@ -1099,6 +1100,79 @@ nav {
 
 /* Dla mediow */
 
+#media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+
+#media-title {
+  margin: 0px 5vw 0px 5vw;
+  width: 85vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+@media screen and (min-width: 720px) {
+  #media-title {
+    text-align: left;
+  }
+}
+
+.media-wrapper-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.media-wrapper {
+  cursor: pointer;
+  width: 225px;
+  height: 150px;
+  background-color: var(--brightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
+}
+
+.media-wrapper-text {
+  height: fit-content !important;
+}
+
+.media-wrapper-text a {
+  color: var(--black);
+  font-size: 20px;
+  display: flex;
+  line-height: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-wrapper:hover .media-wrapper-text a {
+  text-decoration: none;
+  color: var(--gold);
+}
+
+.media-wrapper:hover {
+  background-color: var(--basicgray);
+}
+
+.media-wrapper-div i {
+  height: fit-content !important;
+  margin-bottom: 8px !important;
+  margin-top: -8px !important;
+  font-size: 80px;
+}
 
 /* Social links */
 

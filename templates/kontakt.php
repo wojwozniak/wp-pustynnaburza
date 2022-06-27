@@ -31,14 +31,14 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/kszymczak.jpg">
                         </div>
                         <div class="c-person-data">
                             <p class="smalltext normalplus">phm. Kacper Szymczak</p>
                             <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
                         </div>
                         <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                            <p class="smalltext">k.szymczak@zhp.net.pl</p>
                         </div>
                     </div> 
                     <!-- # End of single person -->
@@ -47,70 +47,42 @@
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
                         </div>
                         <div class="c-person-data">
-                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
-                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                            <p class="smalltext normalplus">Janek "Kenaj" Świercz</p>
+                            <p class="smalltext normalplus">Funkcja</p>
                         </div>
                         <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                            <p class="smalltext">jan.swiercz@zhp.net.pl</p>
                         </div>
                     </div> 
                     <!-- # End of single person -->
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/dbelicki.jpg">
                         </div>
                         <div class="c-person-data">
-                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
-                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                            <p class="smalltext normalplus">pwd. Dominik "Bela" Belicki</p>
+                            <p class="smalltext normalplus">Funkcja</p>
                         </div>
                         <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                            <p class="smalltext">dominik.belicki@zhp.net.pl</p>
                         </div>
                     </div> 
                     <!-- # End of single person -->
                     <!-- # Start of single person -->
                     <div class="c-person">
                         <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
+                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/mgradal.jpg">
                         </div>
                         <div class="c-person-data">
-                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
-                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
+                            <p class="smalltext normalplus">pwd. Maciej Grądal</p>
+                            <p class="smalltext normalplus">Funkcja</p>
                         </div>
                         <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
-                        </div>
-                    </div> 
-                    <!-- # End of single person -->
-                    <!-- # Start of single person -->
-                    <div class="c-person">
-                        <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
-                        </div>
-                        <div class="c-person-data">
-                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
-                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
-                        </div>
-                        <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
-                        </div>
-                    </div> 
-                    <!-- # End of single person -->
-                    <!-- # Start of single person -->
-                    <div class="c-person">
-                        <div class="c-person-pic">
-                            <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/examplepp.jpg">
-                        </div>
-                        <div class="c-person-data">
-                            <p class="smalltext normalplus">phm. Kacper Szymczak</p>
-                            <p class="smalltext normalplus">Komendant Pustynnej Burzy</p>
-                        </div>
-                        <div class="c-person-contactdata">
-                            <p class="smalltext">kacper.szymczak@zhp.net.pl</p>
+                            <p class="smalltext">maciej.gradal@zhp.net.pl</p>
                         </div>
                     </div> 
                     <!-- # End of single person -->
