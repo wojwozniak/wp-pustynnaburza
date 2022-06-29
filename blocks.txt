@@ -1,0 +1,24 @@
+Lista obsługiwanych bloków. Todo -> dodać je zaraz po stworzeniu strony.
+
+1)
+
+"Pytanie/Odpowiedź QnA"
+
+<article class="question">
+<div class="click-wrapper">
+<div class="question-title">
+
+[Treść pytania]
+
+<button type="button" class="question-btn"><span class="plus-icon"><i class="far fa-plus-square"></i></span><span class="minus-icon"><i class="far fa-minus-square"></i></span></button>
+
+</div>
+</div>
+<div class="question-text">
+
+[Treść odpowiedzi]
+
+</div>
+</article>
+
+
