@@ -2,8 +2,8 @@
 	/* Template Name: Dla mediów */
 	get_header();
 ?>
-<article id="media" class="single-wrapper site">
-	<div id="media-title">
+<article id="media" class="site">
+	<div class="wrapper">
 		<h2 class="h2">DLA MEDIÓW</h2>
 		<div class="media-wrapper-div">
 			<!-- Single item -->

@@ -2,10 +2,10 @@
 	/* Template Name: Kronika */
 	get_header();
 ?>
-<article id="kronika" class=" single-wrapper site">
-	<div id="k-wrapper" class ="c-wrapper">
+<article class="site">
+	<div class ="wrapper">
 		<div class="k-title">
-			<h1 class="site-title h2"> KRONIKA </h1>
+			<h2> KRONIKA </h2>
 			<p class="text">Pierwsza edycja Pustynnej Burzy odbyła się już w 1995 roku. Organizację tego wydarzenia zapoczątkował działający w Dąbrowie Górniczej V Szczep Harcerski "Czarna Piątka". Impreza co roku przyciągała do siebie wielu zainteresowanych śmiałków. I wreszcie, po kilkunastoletniej przerwie w organizacji gry, której ostatnia edycja odbyła się w 2010 roku, możemy ogłosić jej wielki powrót!</p>
 			<p class="text">Zobacz zdjęcia z poprzednich edycji: </p>
 		</div>

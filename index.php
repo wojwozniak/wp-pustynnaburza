@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <!-- Podstawa strony z listą postów-->
-		<article id="index-background" class="single-wrapper">
-			<div class="post-wrapper">
-				<h2 id="index-title" class="h2">AKTUALNOŚCI</h2>
+		<article class="site">
+			<div class="wrapper">
+				<h2>AKTUALNOŚCI</h2>
 				<?php
 					if( have_posts() ){
 						while( have_posts() ) {

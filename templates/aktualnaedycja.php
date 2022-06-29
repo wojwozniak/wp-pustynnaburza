@@ -2,10 +2,10 @@
 	/* Template Name: Aktualna edycja */
 	get_header();
 ?>
-<article id="current-edition" class="single-wrapper site">
-	<section class="ce-content">
+<article class="site">
+	<section class="wrapper">
 		<div class="ce-toptext">
-			<h1 class="site-title h2">PUSTYNNA BURZA 2023</h1>
+			<h2>PUSTYNNA BURZA 2023</h2>
 			<div class="ce-desc">
 				<p class="smalltext">Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, która testuje wytrzymałość uczestników podczas trzydniowych zmagań na terenie Jury Krakowsko-Częstochowskiej.</p>
 				<p class="smalltext">Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne, czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
