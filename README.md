@@ -57,6 +57,13 @@ It is a non-profit work and my first project of such a big size. Work is still i
 - Set the front page to front-page.php and post the page to index.php
 - Add logo using WordPress wp-admin settings
 
+### Adding content to pages
+
+Content on the pages can be managed using premade custom blocks, just click "Custom HTML" -> "Reusable HTML Block". Just write what you want inside [text] and your content will be added!
+
+List of currently working blocks:
+- QnA question/answer
+
 
 ### Other info
 
