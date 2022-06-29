@@ -55,7 +55,15 @@ It is a non-profit work and my first project of such a big size. Work is still i
 ### After adding this template to the site setup is needed:
 - Add menu links to both available menus
 - Set the front page to front-page.php and post the page to index.php
-- Add logo using WordPress wp-admin settings
+- Add logo and favicon using WordPress wp-admin settings
+- Add custom HTML blocks - list of them are in the blocks.txt file!
+
+### Adding content to pages
+
+Content on the pages can be managed using premade custom blocks, just click "Custom HTML" -> "Reusable HTML Block". Just write what you want inside [text] and your content will be added!
+
+List of currently working blocks:
+- QnA question/answer
 
 
 ### Other info
