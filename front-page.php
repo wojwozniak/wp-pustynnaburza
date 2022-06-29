@@ -16,7 +16,7 @@
 		<article class="opis-content">
 			<h2 class="timer-title">Odliczamy czas do rozpoczęcia zgłoszeń!</h2>
 			<?php get_template_part('template-parts/front-page', 'timer'); ?>
-			<div class="button-container"><button class="btn join-btn"><i class="fa-solid fa-check bigicon"></i>&nbsp Zgłaszam swój patrol!</button></div>
+			<div class="button-container"><button class="btn join-btn"><i class="fa-solid fa-check bigicon"></i>&nbsp Zgłaszam swój patrol</button></div>
 			<!--W zgloszenia pojawi się napis zgłoszenia kończą się i obliczona data -->
 			<h4 class="h2 zgloszenia"></h4>
     	</article>
@@ -30,16 +30,12 @@
 				Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne, czy takie z zakresu pierwszej pomocy lub terenoznawstwa.
 				Reaktywowana edycja imprezy odbędzie się w maju 2023 roku w Dąbrowie Górniczej!
 			</p>
-			<button class="btn d-more">
-				Dowiedz się więcej!
-			</button>	
+			<button class="btn d-more"><i class="fa-solid fa-info"></i>&nbsp Dowiedz się więcej</button>	
 		</div>	
 	</section>
 	<section id="end-section" class="section small-section">
 		<h2 class="h2">MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
-		<button class="btn d-more">
-			Skontaktuj się z nami!
-		</button>
+		<button class="btn d-more"><i class="fa-solid fa-address-card"></i>&nbsp Skontaktuj się z nami</button>
 	</section>
 
 </div> <!-- container div -->

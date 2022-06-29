@@ -10,7 +10,9 @@
             <p>Jeżeli nie znalazłeś odpowiedzi na swoje pytanie, napisz do nas!</p>
         </div>
         <!--Javascript uses this div-->
-        <div class="qna-wrapper"></div>
+        <div class="qna-wrapper">
+            <?php echo the_content(); ?>
+        </div>
     </div>
 </article>
 
