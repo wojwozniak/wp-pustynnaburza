@@ -1,24 +1,17 @@
-Lista obsługiwanych bloków. Todo -> dodać je zaraz po stworzeniu strony.
+Lista obsługiwanych bloków. Todo -> dodać je zaraz po stworzeniu strony. Tytuł bloku w cudzysłowie, a wcięcia pokazują jak dany blok podzielić na elementy ([] są edytowalne, resztę można zablokować)
 
 1)
 
-"Pytanie/Odpowiedź QnA"
+"[QnA] Pytanie/Odpowiedź"
 
-<article class="question">
-<div class="click-wrapper">
-<div class="question-title">
+<article class="question"><div class="click-wrapper"><div class="question-title"><p>
 
 [Treść pytania]
 
-<button type="button" class="question-btn"><span class="plus-icon"><i class="far fa-plus-square"></i></span><span class="minus-icon"><i class="far fa-minus-square"></i></span></button>
-
-</div>
-</div>
-<div class="question-text">
+</p><button type="button" class="question-btn"><span class="plus-icon"><i class="far fa-plus-square"></i></span><span class="minus-icon"><i class="far fa-minus-square"></i></span></button></div></div><div class="question-text"><p>
 
 [Treść odpowiedzi]
 
-</div>
-</article>
+</p></div></article>
 
 
