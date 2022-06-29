@@ -126,14 +126,34 @@ h4 {
   font-weight: 500;
 }
 
-.text {
+p {
   font-size: 18px;
   font-weight: 400;
+}
+
+p a {
+  color: var(--black);
+}
+
+p a:hover {
+  color: var(--darkgold);
 }
 
 .smalltext {
   font-size: 14px;
   font-weight: 400px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  .title-wrapper {
+    width: 50vw;
+  }
 }
 
 /* ### Main navigation, header ### */
@@ -305,13 +325,12 @@ nav {
 
 
 .site {
-  background-color: var(--whitesmoke) !important;
+  background-color: var(--whitesmoke);
   min-height: 400px;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-top: 145px;
-  background-color: var(--brightgray);
   color: var(--black);
   padding-bottom: 10vh;
 
@@ -422,10 +441,10 @@ nav {
 }
 
 @media screen and (max-width: 960px) {
-
   .deadline {
     padding: 0px;
   }
+
   .deadline-format {
     width: 19vw;
     height: 19vw;
@@ -521,7 +540,6 @@ nav {
 
 /* ### single post ### */
 
-
 .meta {
   padding-bottom: 15px;
   display: flex;
@@ -548,7 +566,7 @@ nav {
   gap: 15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .post-elements {
     flex-direction: column;
     align-items: center;
@@ -671,19 +689,6 @@ nav {
 }
 
 /* ### Kronika ### */
-
-.k-title {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-@media screen and (min-width: 720px) {
-  .k-title {
-    width: 50vw;
-  }
-  
-}
 
 .k-past-container {
   padding-top: 30px;

@@ -2,7 +2,9 @@
 <!-- Podstawa strony z listą postów-->
 		<article class="site">
 			<div class="wrapper">
-				<h2>AKTUALNOŚCI</h2>
+				<div class="title-wrapper">
+					<h2>AKTUALNOŚCI</h2>
+				</div>
 				<?php
 					if( have_posts() ){
 						while( have_posts() ) {
