@@ -2,8 +2,8 @@
 	get_header();
 ?>
 
-<section class="single-wrapper">
-    <div class="c404">
+<section class="site">
+    <div class="wrapper c404">
         <div class="c404-left">
             <h2 class="h2">BŁĄD 404 - STRONA NIE ISTNIEJE</h2>
             <div class="c404-item">

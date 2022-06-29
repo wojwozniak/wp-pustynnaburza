@@ -4,12 +4,14 @@
 ?>
 
 <article class="site">
-    <div class="qna-title">
-        <h2>PYTANIA I ODPOWIEDZI</h2>
-        <h4>Jeżeli nie znalazłeś odpowiedzi na swoje pytanie, napisz do nas!</h4>
+    <div class="wrapper">
+        <div class="title-wrapper">
+            <h2>PYTANIA I ODPOWIEDZI</h2>
+            <p>Jeżeli nie znalazłeś odpowiedzi na swoje pytanie, napisz do nas!</p>
+        </div>
+        <!--Javascript uses this div-->
+        <div class="qna-wrapper"></div>
     </div>
-    <!--Javascript uses this div-->
-    <div class="qna-wrapper"></div>
 </article>
 
 <?php get_footer(); ?>

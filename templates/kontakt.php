@@ -9,10 +9,10 @@
     <div class="c-first">
         <section class="contact-info">
             <div id="contact-data">
-                <p class="smalltext normalplus">Hufiec ZHP Dąbrowa Górnicza</p>
-                <p class="smalltext normalplus">Komenda Gry "Pustynna Burza"</p>
-                <p class="smalltext normalplus">41-300 Dąbrowa Górnicza</p>
-                <p class="smalltext normalplus">ul. Królowej Jadwigi 8</p>
+                <p class="normalplus">Hufiec ZHP Dąbrowa Górnicza</p>
+                <p class="normalplus">Komenda Gry "Pustynna Burza"</p>
+                <p class="normalplus">41-300 Dąbrowa Górnicza</p>
+                <p class="normalplus">ul. Królowej Jadwigi 8</p>
             </div> <!-- End of contact-data -->
             <p class="smalltext"><a href="mailto:pustynna.burza@dabrowagornicza.zhp.pl">pustynna.burza@dabrowagornicza.zhp.pl</a></p>
             <p class="smalltext">+48 123 123 123</p> 
