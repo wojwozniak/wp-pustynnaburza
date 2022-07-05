@@ -36,6 +36,20 @@
             </div>
             <div class="parters">
                   <h3 class="h3">PARTNERZY</h3>
+                  <div class="slider">
+                        <div class="slide-track">
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
+                        </div>
+                  </div>
             </div>
       </div>
       <div id="footer-end" class="text">
