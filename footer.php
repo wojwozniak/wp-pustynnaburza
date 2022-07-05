@@ -33,9 +33,11 @@
             <!--JS script (main.js) automatically adds years to this paragraph -->
             <p class="copyright">Copyright © 1995-2022 Pustynna Burza</p>
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <p class="host"><a href="https://zhp.pl/" target="_blank">Związek Harcerstwa Polskiego</a></p>
+            <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <p class="host"><a href="https://dabrowagornicza.zhp.pl/" target="_blank">ZHP Hufiec Dąbrowa Górnicza</a></p>
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
-            <p class="host"><a href="https://zhp.pl/" target="_blank">Związek Harcerstwa Polskiego</a></p>
+            <p><a href="<?php echo get_home_url(); ?>/prywatnosc" target="_blank">Polityka prywatności</a></p>
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <p id="author"><a href="https://github.com/wojwozniak" target="_blank">Autor</a></p>
             <p class ="footer-separator">&nbsp;&nbsp;</p>
