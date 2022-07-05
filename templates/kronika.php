@@ -14,6 +14,18 @@
 				<p class="normalplus">2010</p>
 				<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg" alt="">
 			</div>
+			<div class="k-past">
+				<p class="normalplus">2010</p>
+				<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg" alt="">
+			</div>
+			<div class="k-past">
+				<p class="normalplus">2010</p>
+				<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg" alt="">
+			</div>
+			<div class="k-past">
+				<p class="normalplus">2010</p>
+				<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg" alt="">
+			</div>
 		</div>
 	</div>
 </article>
