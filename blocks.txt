@@ -14,4 +14,21 @@ Lista obsługiwanych bloków. Todo -> dodać je zaraz po stworzeniu strony. Tytu
 
 </p></div></article>
 
+2)
+
+"[Media] Plik"
+
+<div class="media-wrapper"><div class="media-wrapper-text"><a href="
+
+[link do pliku]
+
+"><i class="
+
+[klasy ikon Fontawesome, bez cudzysłowia]
+
+"></i><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="text">
+
+[Tekst, który ma się pojawić]
+
+</p></a></div></div>
 
