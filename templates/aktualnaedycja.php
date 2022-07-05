@@ -42,7 +42,7 @@
 				<div class="ce-aspect">
 					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
 					<div class="ce-aspect-text">
-					<h4>Samarytanka</h4>
+					<h4>SAMARYTANKA</h4>
 					<p class="smalltext">dljasldlfjdlassdjadld aljadlkasjlk lsjadlkakl dljasldjkaslk saljkdkalsjdl bmb</p>
 					</div>
 				</div>
