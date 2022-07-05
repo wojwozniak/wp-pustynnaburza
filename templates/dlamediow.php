@@ -6,40 +6,8 @@
 	<div class="wrapper">
 		<h2 class="h2">DLA MEDIÓW</h2>
 		<div class="media-wrapper-div">
-			<!-- Single item -->
-			<div class="media-wrapper">
-				<div class="media-wrapper-text">
-					<a href="#">
-						<i class="fa-regular fa-file-zipper"></i>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-						<p class="text">LOGOTYPY</p>
-					</a>
-				</div>
-			</div>
-			<!-- Single item -->
-			<div class="media-wrapper">
-				<div class="media-wrapper-text">
-					<a href="#">
-						<i class="fa-regular fa-file-pdf"></i>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-						<p class="text">KRÓTKI TEKST<br>DLA MEDIÓW</p>
-					</a>
-				</div>
-			</div>
-			<!-- Single item -->
-			<div class="media-wrapper">
-				<div class="media-wrapper-text">
-					<a href="#">
-						<i class="fa-regular fa-file-pdf"></i>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-						<p class="text">DŁUGI TEKST<br>DLA MEDIÓW</p>
-					</a>
-				</div>	
-			</div>
-		</div>
-		
-	</div>
-	
-
+			<?php echo the_content(); ?>
+		</div> <!-- End of media wrapper div -->
+	</div> <!-- End of wrapper -->
 </article>
 <?php get_footer(); ?>
