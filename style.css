@@ -98,11 +98,12 @@ a.button {
 }
 
 .btn:hover {
-  background-color: var(--darkgold);
+  border: 1px solid black;
 }
 
 .btn:active {
-  transform: translateY(-2px);
+  transform: translateZ(-2px);
+  transform: translateY(1px);
   border: 1px solid black;
 }
 
@@ -599,9 +600,17 @@ line-height: 130%;
 #end-section-question {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
-  text-align: left;
+  text-align: center;
   padding: 30px;
+  padding-bottom: 10px;
+}
+
+#end-section-question-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 #end-section-posts {
@@ -609,7 +618,7 @@ line-height: 130%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   padding: 20px;
 }
 
@@ -628,37 +637,68 @@ line-height: 130%;
   justify-content: center;
 }
 
-@media screen and (max-width: 720px) {
-  #end-section-question {
-    text-align: center;
-    align-items: center;
-    border-top: 5px dotted black;
+@media screen and (max-width: 840px) {
+  #end-section-posts-wrapper {
+    gap: 2vw;
   }
 
+  .end-post-wrap {
+    width: 25% !important;
+  }
+
+  #end-section-posts img {
+    width: 100px !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
   #end-section-posts {
     align-items: center;
     text-align: center;
   }
 }
 
+.end-post-wrap {
+  display: flex;
+  align-items: center;
+  max-width: 250px;
+  width: 30%;
+  padding: 30px 0 30px 0;
+  border-radius: 20px;
+  background-color: white;
+  min-width: fit-content;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
+  border: 1px solid white;
+}
+
+.end-post-wrap:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s;
+  text-decoration: none;
+  border: 1px solid gold;
+}
+
+.end-post-wrap:hover .end-title {
+  color: var(--gold);
+}
+
 .end-post {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  background-color: white;
   text-align: center;
   align-items: center;
-  max-width: 250px;
-  width: 30%;
-  border-radius: 20px;
-  padding: 30px 0 30px 0;
-  min-width: fit-content;
-  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
+  width: 100%;
 }
 
 .end-post .date, .end-post .end-title {
   width: fit-content;
   color: var(--black);
+}
+
+.end-title {
+  font-weight: bold;
 }
 
 .end-post a {
