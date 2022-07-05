@@ -2,6 +2,17 @@
 <footer>
       <div class="footer">
             <div class="footer-content">
+                  <div class="footer-logo-container">
+                        <a href="https://zhp.pl/" target="_blank">
+                              <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png" alt="Logo ZHP" />
+                        </a>
+                        <a href="https://slaska.zhp.pl/" target="_blank">
+                              <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_chsl.png" alt="Logo Chorągwi Śląskiej" />
+                        </a>
+                        <a href="https://dabrowagornicza.zhp.pl/" target="_blank">
+                              <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_hdg.png" alt="Logo Hufca Dąbrowa Górnicza" />
+                        </a>
+                  </div> 
                   <div class="footer-links">
                         <div class="socials">
                               <h3 class="h3">ZNAJDŹ NAS TUTAJ</h3>
@@ -26,7 +37,6 @@
                         <h3 class="h3">PARTNERZY</h3>
                   </div>
             </div>
-            <div class="footer-logo"></div> 
       </div>
       <div id="footer-end" class="text">
             <p class ="footer-separator">&nbsp;&nbsp;</p>
