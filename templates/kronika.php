@@ -12,27 +12,7 @@
 		<div class="k-past-container">
 			<div class="k-past">
 				<p class="normalplus">2010</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2009</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2008</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2007</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2006</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2005</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2004</p>
-			</div>
-			<div class="k-past">
-				<p class="normalplus">2003</p>
+				<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg" alt="">
 			</div>
 		</div>
 	</div>
