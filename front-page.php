@@ -46,15 +46,15 @@
 					if($rp->have_posts()) :
 						while($rp->have_posts()) : 
 						$rp->the_post();
-						echo "<div class='end-post'>";
+						echo "<a class='end-post-wrap' href='";
+						the_permalink();
+						echo "' target='_blank'><div class='end-post'>";
 							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Feature image']);} 
-			   				echo "<div class='end-title'><a href=";
-							the_permalink();
-							echo "target='_blank'>";
+			   				echo "<div class='end-title'>";
 							the_title();
-						echo "</a></div><span class='date'>";
+						echo "</div><span class='date'>";
 						the_time('d.m.Y');
-						echo "r. </span></div>";
+						echo "r. </span></div></a>";
 						endwhile;
 						wp_reset_postdata();
 					endif; 
@@ -65,10 +65,15 @@
 			</button>
 		</div> <!-- end of posts section -->
 		<div id="end-section-question">
-			<h2>PYTANIA?</h2>
-			<button class="btn d-more">
-				<i class="fa-solid fa-address-card"></i>&nbsp Skontaktuj się z nami
-			</button>
+			<h2>MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
+			<div id="end-section-question-wrapper">
+				<button class="btn d-more">
+					<i class="fa-solid fa-circle-question"></i>&nbsp Pytania i odpowiedzi
+				</button>
+				<button class="btn d-more">
+					<i class="fa-solid fa-address-card"></i>&nbsp Kontakt
+				</button>
+			</div>
 		</div> <!-- end of question div -->
 	</section> <!-- end of ending section -->
 </div> <!-- end of container div -->
