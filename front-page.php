@@ -41,7 +41,7 @@
 			<h2>AKTUALNOŚCI</h2>
 			<div id="end-section-posts-wrapper">
 				<?php
-					$args = array('posts_per_page' => 3, 'order' => 'DESC');
+					$args = array('posts_per_page' => 4, 'order' => 'DESC');
 					$rp = new WP_Query( $args );
 					if($rp->have_posts()) :
 						while($rp->have_posts()) : 
@@ -52,13 +52,15 @@
 							the_permalink();
 							echo "target='_blank'>";
 							the_title();
-						echo "</a></div></div>";
+						echo "</a></div><span class='date'>";
+						the_time('d.m.Y');
+						echo "r. </span></div>";
 						endwhile;
 						wp_reset_postdata();
 					endif; 
 				?>
 			</div> <!-- end of posts wrapper -->
-			<button class="btn d-more">
+			<button class="btn d-more more-posts">
 				<i class="fa-solid fa-folder-plus"></i>&nbsp Więcej postów
 			</button>
 		</div> <!-- end of posts section -->
