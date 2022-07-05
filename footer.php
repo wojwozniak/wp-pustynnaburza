@@ -1,7 +1,7 @@
 
 <footer>
       <div class="footer">
-            <div class="footer-content">
+            <div class="footer-top">
                   <div class="footer-logo-container">
                         <a href="https://zhp.pl/" target="_blank">
                               <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png" alt="Logo ZHP" />
@@ -33,9 +33,9 @@
                         ?>
                         </div>
                   </div>
-                  <div class="parters">
-                        <h3 class="h3">PARTNERZY</h3>
-                  </div>
+            </div>
+            <div class="parters">
+                  <h3 class="h3">PARTNERZY</h3>
             </div>
       </div>
       <div id="footer-end" class="text">
