@@ -8,8 +8,8 @@
 			<div class="ce-toptext">
 				<h2>PUSTYNNA BURZA 2023</h2>
 				<div class="ce-desc">
-					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, która testuje wytrzymałość uczestników podczas trzydniowych zmagań na terenie Jury Krakowsko-Częstochowskiej.</p>
-					<p>Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne, czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
+					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań </br>na terenie Jury Krakowsko-Częstochowskiej.</p>
+					<p>Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
 				</div> <!-- End of ce-desc -->
 				<div class="ce-countdown-container">
 					<h3>ODLICZAMY CZAS DO ROZPOCZĘCIA ZGŁOSZEŃ!</h3>
@@ -36,19 +36,38 @@
 		<section id="ce-aspects">
 			<div class="title-wrapper">
 				<h2>ASPEKTY GRY</h2>
-				<p>Zastanawiasz się, co może Cię spotkać podczas Pustynnej Burzy?</p>
+				<p>Zastanawiasz się, jakie atrakcje mogą Cię spotkać podczas Pustynnej Burzy?</p>
 			</div>
 			<div class="ce-aspects-div">
 				<div class="ce-aspect">
 					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
 					<div class="ce-aspect-text">
 					<h4>SAMARYTANKA</h4>
-					<p class="smalltext">dljasldlfjdlassdjadld aljadlkasjlk lsjadlkakl dljasldjkaslk saljkdkalsjdl bmb</p>
+					<p class="smalltext">Doskonalenie i test wiedzy z zakresu udzielania pierwszej pomocy.</p>
 					</div>
 				</div>
-				<div class="ce-aspect"></div>
-				<div class="ce-aspect"></div>
-				<div class="ce-aspect"></div>
+				<div class="ce-aspect">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+					<div class="ce-aspect-text">
+					<h4>PRZETRWANIE</h4>
+					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
+					</div>
+				</div>
+				<div class="ce-aspect">
+				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+					<div class="ce-aspect-text">
+					<h4>PRZETRWANIE</h4>
+					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
+					</div>
+				</div>
+				
+				<div class="ce-aspect">
+				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+					<div class="ce-aspect-text">
+					<h4>PRZETRWANIE</h4>
+					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>

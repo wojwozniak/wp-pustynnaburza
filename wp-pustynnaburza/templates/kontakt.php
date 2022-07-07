@@ -15,7 +15,7 @@
                 <p class="normalplus">ul. Królowej Jadwigi 8</p>
             </div> <!-- End of contact-data -->
             <p class="smalltext"><a href="mailto:pustynna.burza@dabrowagornicza.zhp.pl">pustynna.burza@dabrowagornicza.zhp.pl</a></p>
-            <p class="smalltext">+48 791 332 340</p> 
+            <p class="smalltext">+48 123 123 123</p> 
             <div class="c-socials">
             <?php get_template_part('template-parts/social-links'); ?>
             </div> <!-- End of c-socials -->
@@ -47,6 +47,20 @@
                 <!-- # Start of single person -->
                 <div class="c-person">
                     <div class="c-person-pic">
+                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+                    </div>
+                    <div class="c-person-data">
+                        <p class="smalltext normalplus">Janek "Kenaj" Świercz</p>
+                        <p class="smalltext normalplus">Oboźny</p>
+                    </div>
+                    <div class="c-person-contactdata">
+                        <p class="smalltext">jan.swiercz@zhp.net.pl</p>
+                    </div>
+                </div> 
+                <!-- # End of single person -->
+                <!-- # Start of single person -->
+                <div class="c-person">
+                    <div class="c-person-pic">
                         <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/dbelicki.jpg">
                     </div>
                     <div class="c-person-data">
@@ -65,52 +79,38 @@
                     </div>
                     <div class="c-person-data">
                         <p class="smalltext normalplus">pwd. Maciej Grądal</p>
-                        <p class="smalltext normalplus">Zespół ds. Finansów</p>
+                        <p class="smalltext normalplus">Zespół ds. Pozyskiwania Środków</p>
                     </div>
                     <div class="c-person-contactdata">
                         <p class="smalltext">maciej.gradal@zhp.net.pl</p>
                     </div>
                 </div> 
                 <!-- # End of single person -->
-                 <!-- # Start of single person -->
-                 <div class="c-person">
+                <!-- # Start of single person -->
+                <div class="c-person">
                     <div class="c-person-pic">
-                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/kkoza.jpg">
+                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/dbelicki.jpg">
                     </div>
                     <div class="c-person-data">
-                        <p class="smalltext normalplus">pwd. Karolina Koza</p>
-                        <p class="smalltext normalplus">Zespół ds. Promocji</p>
+                        <p class="smalltext normalplus">pwd. Dominik "Bela" Belicki</p>
+                        <p class="smalltext normalplus">Zespół ds. Programu</p>
                     </div>
                     <div class="c-person-contactdata">
-                        <p class="smalltext">karolina.koza@zhp.net.pl</p>
+                        <p class="smalltext">dominik.belicki@zhp.net.pl</p>
                     </div>
                 </div> 
                 <!-- # End of single person -->
-                 <!-- # Start of single person -->
-                 <div class="c-person">
+                <!-- # Start of single person -->
+                <div class="c-person">
                     <div class="c-person-pic">
-                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/mrobakowski.jpg">
+                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/dbelicki.jpg">
                     </div>
                     <div class="c-person-data">
-                        <p class="smalltext normalplus">Mateusz Robakowski</p>
-                        <p class="smalltext normalplus">Zespół ds. Logistyki</p>
+                        <p class="smalltext normalplus">pwd. Dominik "Bela" Belicki</p>
+                        <p class="smalltext normalplus">Zespół ds. Programu</p>
                     </div>
                     <div class="c-person-contactdata">
-                        <p class="smalltext">mateusz.robakowski@zhp.net.pl</p>
-                    </div>
-                </div> 
-                <!-- # End of single person -->
-                 <!-- # Start of single person -->
-                 <div class="c-person">
-                    <div class="c-person-pic">
-                        <img class = "c-pic" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
-                    </div>
-                    <div class="c-person-data">
-                        <p class="smalltext normalplus">ćw. Janek "Kenaj" Świercz</p>
-                        <p class="smalltext normalplus">Oboźny</p>
-                    </div>
-                    <div class="c-person-contactdata">
-                        <p class="smalltext">jan.swiercz@zhp.net.pl</p>
+                        <p class="smalltext">dominik.belicki@zhp.net.pl</p>
                     </div>
                 </div> 
                 <!-- # End of single person -->
