@@ -943,6 +943,11 @@ line-height: 130%;
   box-shadow: 10px 40px 60px rgba(0, 0, 0, 0.4);
 }
 
+.k-past a {
+  color: var(--black);
+  text-decoration: none;
+}
+
 .k-past p {
   position: relative;
   z-index: 10;
