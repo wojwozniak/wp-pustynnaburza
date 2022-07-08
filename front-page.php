@@ -34,7 +34,7 @@
 				Zapraszamy wszystkich wędrowników i starszyznę harcerską.
 				Reaktywowana edycja imprezy będzie odbywać się od 29 kwietnia do 1 maja 2023 roku w Dąbrowie Górniczej! 
 			</p>
-			<button class="btn d-more"><i class="fa-solid fa-info"></i>&nbsp Dowiedz się więcej</button>	
+			<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/informacje';"><i class="fa-solid fa-info"></i>&nbsp Dowiedz się więcej</button>	
 		</div>	<!-- end of desc content -->
 		<div class="desc-photo"></div>
 	</section> <!-- end of description section -->
@@ -67,10 +67,10 @@
 		<div id="end-section-question">
 			<h2>MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
 			<div id="end-section-question-wrapper">
-				<button class="btn d-more">
+				<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
 					<i class="fa-solid fa-circle-question"></i>&nbsp Pytania i odpowiedzi
 				</button>
-				<button class="btn d-more">
+				<button class="btn d-more" type="button" onclick="location.href='<?php echo get_home_url(); ?>/kontakt';">
 					<i class="fa-solid fa-address-card"></i>&nbsp Kontakt
 				</button>
 			</div>
