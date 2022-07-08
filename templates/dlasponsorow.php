@@ -28,7 +28,12 @@
             <div class="sponsor-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pb10.jpg" alt="">
             </div>
+            
         </section> <!-- End of sponsor section -->
+        <section class="sponsor">
+            <?php get_template_part('template-parts/contact-data'); ?>
+            <?php get_template_part('template-parts/map'); ?>
+        </section>
 	</div> <!-- End of wrapper -->
 </article>
 <?php get_footer(); ?>
