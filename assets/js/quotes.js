@@ -1,0 +1,16 @@
+const quotes = [
+    { "quote": '”Dwieście gardeł z siłą i mocą wykrzykujące w noc słowa piosenki, zjednoczone pomimo rywalizacji. I właśnie te chwile, kiedy uczestnicy zapominali o punktacji, kiedy pomimo różnic i tego, że się nie znali, zaczynali współpracować i działać jak jeden zmęczony, niewyspany, przemoczony organizm z wiecznie obtartymi stopami – to była cała kwintesencja Pustynnej Burzy.”', 'author': 'Makos' },
+    { "quote": '“Pamiętam czekanie w kolejce to pustego Toi Toia, jak i piętnastokilometrową nocną wędrówkę i wsparcie psychiczne chłopaków z innego patrolu – byłam tak zmęczona, że jakbym usiadła w rowie to bym zasnęła, bo była to już druga noc bez snu – czy tak zimną noc, że w namiocie nikt nie zasnął, ale każdy bał się odezwać, bo myślał, że pozostali śpią, ale to chyba właśnie poznawani ludzie z całej Polski są najlepszymi wspomnieniami.”', 'author': 'Ola N.' },
+    { "quote": '“Kazali nam się połączyć przez radiostacje i przekazać sobie dalsze wskazówki dotyczące zadania. Ale przecięli kabel po środku – i kto nie wymyślił, dlaczego radia nie działały, oraz nie naprawił kabli, to nie wykonał poprawnie zadania. Odległość między radiami to było około 200-300 metrów.”', 'author': 'Jacek P. z 6JDH “Hornet”' },
+    { "quote": '“Gdy wróciłem do domu po Pustynnej Burzy, byłem tak zmęczony, że od razu padłem na łóżko. Po jakimś czasie obudziła mnie mama, mówiąc: To, że śpisz w butach jakoś mi nie przeszkadza, ale ściągnij chociaż plecak...”', 'author': 'Baton' },
+    { "quote": '“Mieliśmy dość nietypową nazwę patrolu. Gdy się nas o nią pytano, odpowiadaliśmy “Po co Ci to?” - Na co zawsze mówili: Ale... bo ja muszę wiedzieć... Chwilę to trwało zanim się niektórzy zorientowali, że to właśnie nasza nazwa ekipy. Ale... trudniej mieli rok później: Nazwa ekipy? - "Ta sama co rok temu" - odpowiadaliśmy. Ale mnie nie było rok temu, ja nie wiem jaką mieliście rok temu. Jak się wtedy nazywaliście? - "Po co Ci to" - Ale... bo ja muszę wiedzieć... Nie mieli z nami łatwo na punktach."', 'author': 'A. Dziura' },
+    { "quote": '“Pierwsza w życiu tyrolka na takiej wysokości, surowy kurczak do przygotowania obiadu na ognisku gdzieś w okolicy Chechła, rozminowanie „piaskownicy”, bieg po piachu z rannym na noszach, skwar i przenikliwy deszcz, airsoft w ruinach jakiegoś domu, noc w przygodnym miejscu (tu i ani metra dalej), poranne odklejanie przepoconego śpiwora od ciała, kupa starych znajomych i całkiem nowych też, sprzęt nie do końca dopasowany, ale każdy brał to co miał i to co chyba najbardziej wryło się w pamięć, te kilometry… Te na całodniowej grze po miastach i pomiędzy nimi oraz te nocne po lasach i drogach. Nie wiem, ile ich było, ale Rafał już pierwszego dnia przypłacił to sporymi otarciami pięt, a ja po raz pierwszy stwierdziłem, że jungle (dżangle), które w Vietnamie robiły robotę tutaj przegrały w zderzeniu z asfaltem (poza tym są ok).”', 'author': 'Adam Be'}
+];
+
+const text = document.getElementById("ce-quote-text");
+const author = document.getElementById("ce-quote-author");
+
+const x = Math.floor(Math.random() * quotes.length);
+
+text.innerText = quotes[x].quote;
+author.innerText =`~ ${quotes[x].author}`;

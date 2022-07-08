@@ -846,29 +846,20 @@ line-height: 130%;
 }
 
 .ce-about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--brightgray);
+  background-color: var(--gold);
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.ce-about-content {
-  padding-left: 5vw;
-  padding-right: 5vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .ce-about-text {
   display: flex;
+  flex-direction: column;
   font-weight: bold;
-}
-
-.ce-about-blank {
-  width: 0px;
-  height: 0px;
+  width: 60%;
 }
 
 #ce-aspects {
@@ -911,21 +902,9 @@ line-height: 130%;
 }
 
 @media screen and (min-width: 870px) {
-
-  .ce-about-text {
-    text-align: left;
-    width: 50%;
-  }
-
-  .ce-about-blank {
-    width: 50%;
-    height: 1px;
-  }
-
   .ce-aspect {
     width: 48%;
   }
-
 }
 
 /* ### Kronika ### */

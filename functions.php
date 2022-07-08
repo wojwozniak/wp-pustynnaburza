@@ -47,6 +47,7 @@ function pustynnaburza_register_scripts() {
 
 	if(is_page_template('templates/aktualnaedycja.php') == true) {
 		wp_enqueue_script('pustynnaburza-timer', get_template_directory_uri() .'/assets/js/timer.js', array(), '1.0', true);
+		wp_enqueue_script('pustynnaburza-quotes', get_template_directory_uri() .'/assets/js/quotes.js', array(), '1.0', true);
 	}
 }
 

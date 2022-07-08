@@ -12,6 +12,9 @@
 					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań.</p>
 					<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),</br> tych, którzy chcą pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. 
 					<p>Podczas gry uczestnicy będą realizować zadania survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
+					<p>
+						Pustynna Burza to gra dla każdego powyżej 16 roku życia, kto chce pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. Wznowiona edycja gwarantuje przeżycie niezapomnianej przygody i wspomnienia na długie lata. Szansę na pokonanie wszystkich wyzwań mają tylko Ci najwytrwalsi!
+					</p>
 				</div> <!-- End of ce-desc -->
 				<div class="ce-countdown-container">
 					<h3>ODLICZAMY CZAS DO ROZPOCZĘCIA ZGŁOSZEŃ!</h3>
@@ -25,14 +28,12 @@
 		</section> <!-- End of ce-content -->
 	</div>
 	<section class="ce-about">
-		<div class="ce-about-content">
-			<div class="ce-about-blank"></div>
-			<div class="ce-about-text">
-				<p>
-					Pustynna Burza to gra dla każdego powyżej 16 roku życia, kto chce pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. Wznowiona edycja gwarantuje przeżycie niezapomnianej przygody i wspomnienia na długie lata. Szansę na pokonanie wszystkich wyzwań mają tylko Ci najwytrwalsi!
-				</p>
-			</div> <!-- End of ce-about-text -->
-		</div> <!-- End of ce-about-content -->
+		<div class="ce-about-text">
+			<p id="ce-quote-text">
+				"Dwieście gardeł z siłą i mocą wykrzykujące w noc słowa piosenki, zjednoczone pomimo rywalizacji. I właśnie te chwile, kiedy uczestnicy zapominali o punktacji, kiedy pomimo różnic i tego, że się nie znali, zaczynali współpracować i działać jak jeden zmęczony, niewyspany, przemoczony organizm z wiecznie obtartymi stopami – to była cała kwintesencja Pustynnej Burzy.”
+			</p>
+			<p id="ce-quote-author" class="bold">~ Makos</p>
+		</div> <!-- End of ce-about-text -->
 	</section>  <!-- End of ce-about -->
 	<div class="wrapper">
 		<section id="ce-aspects">
