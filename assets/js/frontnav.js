@@ -59,3 +59,11 @@ window.addEventListener("scroll", () => {
     logo.classList.add("invertcolor");
   }
 });
+
+// Front page scroll down button
+
+const scrollDown = document.getElementById("title-scrolldown");
+
+scrollDown.onclick = () => {
+  scroll(0, 400);
+}

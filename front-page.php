@@ -9,11 +9,12 @@
 	<!-- Pierwsza sekcja -->
 	<section id="home" class="section">
 		<h1 class="title"> Pustynna Burza </h1>
+		<p id="title-scrolldown"><i class="fa-solid fa-circle-arrow-down"></i></p>
 	</section> <!-- end of home section -->
 	<!-- Sekcja z odliczaniem -->
 	<section id="opis" class="section small-section opis">
 		<!-- Odliczanie -->
-		<article class="opis-content">
+		<article class="opis">
 			<h2 class="timer-title">Odliczamy czas do rozpoczęcia zgłoszeń!</h2>
 			<?php get_template_part('template-parts/front-page', 'timer'); ?>
 			<!--
