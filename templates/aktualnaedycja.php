@@ -10,7 +10,7 @@
 				<div class="ce-desc">
 				<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r. godz. 15.00 </br> Dąbrowa Górnicza, woj. Śląskie</p>
 					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań.</p>
-					<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),</br> tych, którzy chcą pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. 
+					<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),</br> tych, którzy chcą pokonać własne słabości, sprawdzić swoje umiejętności. 
 					<p>Podczas gry uczestnicy będą realizować zadania survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
 				</div> <!-- End of ce-desc -->
 				<div class="ce-countdown-container">
