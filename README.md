@@ -58,6 +58,19 @@ It is a non-profit work and my first project of such a big size. Work is still i
 - Add logo and favicon using WordPress wp-admin settings
 - Add custom HTML blocks - list of them are in the blocks.txt file!
 
+### Site URLs
+
+During setting up website, remember about enforcing URLs:
+- Aktualności /aktualnosci
+- Pustynna Burza 2023 /informacje
+- FAQ /faq
+- Dla mediów /dla-mediow
+- Dla sponsorów /dla-sponsorow
+- Kontakt /kontakt
+- Kronika /kronika
+
+Failing to do so will make some cool looking buttons not work!
+
 ### Adding content to pages
 
 Content on the pages can be managed using premade custom blocks, just click "Custom HTML" -> "Reusable HTML Block". Just write what you want inside [text] and your content will be added!
