@@ -1230,7 +1230,7 @@ iframe {
   }
 
   iframe {
-    margin-top: -50px;
+    margin-top: 5px;
   }
 }
 
@@ -1387,6 +1387,7 @@ iframe {
   flex-direction: row;
   gap: 4vw;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .sponsor-intro {
@@ -1395,6 +1396,7 @@ iframe {
 
 .sponsor-img {
   width: 40%;
+  height: fit-content;
 }
 
 .sponsor-img img {
@@ -1403,8 +1405,19 @@ iframe {
 }
 
 @media screen and (max-width: 720px) {
+  .sponsor {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
   .sponsor-intro, .sponsor-img {
     width: 100%;
+    gap: 20px;
+  }
+
+  .sponsor-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
