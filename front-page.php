@@ -43,14 +43,14 @@
 			<h2>AKTUALNOŚCI</h2>
 			<div id="end-section-posts-wrapper">
 				<?php
-					$args = array('posts_per_page' => 4, 'order' => 'DESC');
+					$args = array('posts_per_page' => 3, 'order' => 'DESC');
 					$rp = new WP_Query( $args );
 					if($rp->have_posts()) :
 						while($rp->have_posts()) : 
 						$rp->the_post();
-						echo "<a class='end-post-wrap' href='";
+						echo "<div class='end-post'><a class='end-post-wrap' href='";
 						the_permalink();
-						echo "' target='_blank'><div class='end-post'>";
+						echo "' target='_blank'>";
 							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Feature image']);} 
 			   				echo "<div class='end-title'>";
 							the_title();
@@ -61,10 +61,8 @@
 						wp_reset_postdata();
 					endif; 
 				?>
+				<a href="" id="end-section-more-posts"><i class="fa-solid fa-angle-right"></i></a>
 			</div> <!-- end of posts wrapper -->
-			<button class="btn d-more more-posts">
-				<i class="fa-solid fa-folder-plus"></i>&nbsp Więcej postów
-			</button>
 		</div> <!-- end of posts section -->
 		<div id="end-section-question">
 			<h2>MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
