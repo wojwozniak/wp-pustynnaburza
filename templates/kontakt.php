@@ -24,7 +24,7 @@
             </div> <!-- End of c-socials -->
         </section> <!-- End of contact-info -->
         <section class="contact-form">
-        <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=Ho024XU55kyJPfw1H9RNzZnnXTZbvqdCr3YHVhTFAzhUN1NLTFI2NVQxUUEzV1pDQVZDNzNFUEtDVS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=19.19111698865891%2C50.32189861295466%2C19.193627536296848%2C50.323034000103924&amp;layer=mapnik&amp;marker=50.32246630991954%2C19.192372262477875" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.32247&amp;mlon=19.19237#map=19/50.32247/19.19237&amp;layers=N" target="_blank">Wyświetl większą mapę</a></small>
         </section> <!-- End of contact-form -->
     </div> <!-- End of c-first -->
     <section class="c-us">
