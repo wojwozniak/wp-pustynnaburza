@@ -30,7 +30,8 @@
 			<p>
 				Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, która testuje wytrzymałość uczestników podczas trzydniowych zmagań na terenie Jury Krakowsko-Częstochowskiej.
 				Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne, czy takie z zakresu pierwszej pomocy lub terenoznawstwa.
-				Reaktywowana edycja imprezy odbędzie się w maju 2023 roku w Dąbrowie Górniczej!
+				Zapraszamy wszystkich wędrowników i starszyznę harcerską.
+				Reaktywowana edycja imprezy będzie odbywać się od 29 kwietnia do 1 maja 2023 roku w Dąbrowie Górniczej! 
 			</p>
 			<button class="btn d-more"><i class="fa-solid fa-info"></i>&nbsp Dowiedz się więcej</button>	
 		</div>	<!-- end of desc content -->
