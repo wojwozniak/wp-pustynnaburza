@@ -1488,6 +1488,20 @@ footer ul {
 
 .partners {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .partners {
+    text-align: center !important;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #partners-title {
+    width: fit-content !important;
+  } 
 }
 
 /* Animation */
