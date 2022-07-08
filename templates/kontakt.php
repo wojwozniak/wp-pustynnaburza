@@ -8,24 +8,12 @@
     <h2>KONTAKT</h2>
     <div class="c-first">
         <section class="contact-info">
-            <div id="contact-data">
-                <p class="normalplus">Hufiec ZHP Dąbrowa Górnicza</p>
-                <p class="normalplus">Komenda Gry "Pustynna Burza"</p>
-                <p class="normalplus">41-300 Dąbrowa Górnicza</p>
-                <p class="normalplus">ul. Królowej Jadwigi 8</p>
-                <p class="smalltext">NIP: 634-019-54-83</p>
-                <p class="smalltext">konto hufca: ING Bank Śląski 0/Dąbrowa Górnicza</p>
-                <p class="smalltext">09 1050 1272 1000 0008 0033 3650</p>
-            </div> <!-- End of contact-data -->
-            <p class="smalltext"><a href="mailto:pustynna.burza@dabrowagornicza.zhp.pl">pustynna.burza@dabrowagornicza.zhp.pl</a></p>
-            <p class="smalltext">+48 791 332 340</p> 
+        <?php get_template_part('template-parts/contact-data'); ?>
             <div class="c-socials">
-            <?php get_template_part('template-parts/social-links'); ?>
+                <?php get_template_part('template-parts/social-links'); ?>
             </div> <!-- End of c-socials -->
         </section> <!-- End of contact-info -->
-        <section class="contact-form">
-        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=19.19111698865891%2C50.32189861295466%2C19.193627536296848%2C50.323034000103924&amp;layer=mapnik&amp;marker=50.32246630991954%2C19.192372262477875" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.32247&amp;mlon=19.19237#map=19/50.32247/19.19237&amp;layers=N" target="_blank">Wyświetl większą mapę</a></small>
-        </section> <!-- End of contact-form -->
+        <?php get_template_part('template-parts/map'); ?>
     </div> <!-- End of c-first -->
     <section class="c-us">
         <h2>KOMENDA GRY</h2>
