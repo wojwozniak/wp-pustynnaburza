@@ -8,8 +8,10 @@
 			<div class="ce-toptext">
 				<h2>PUSTYNNA BURZA 2023</h2>
 				<div class="ce-desc">
-					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań </br>na terenie Jury Krakowsko-Częstochowskiej.</p>
-					<p>Podczas gry uczestnicy będą realizować zajęcia survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
+				<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r. godz. 15.00 </br> Dąbrowa Górnicza, woj. Śląskie</p>
+					<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań.</p>
+					<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),</br> tych, którzy chcą pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. 
+					<p>Podczas gry uczestnicy będą realizować zadania survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
 				</div> <!-- End of ce-desc -->
 				<div class="ce-countdown-container">
 					<h3>ODLICZAMY CZAS DO ROZPOCZĘCIA ZGŁOSZEŃ!</h3>
@@ -36,36 +38,67 @@
 		<section id="ce-aspects">
 			<div class="title-wrapper">
 				<h2>ASPEKTY GRY</h2>
-				<p>Zastanawiasz się, jakie atrakcje mogą Cię spotkać podczas Pustynnej Burzy?</p>
+				<p>Zastanawiasz się, jakie atrakcje mogą Cię spotkać podczas Pustynnej Burzy?</br>
+				To przede wszystkim techniki harcerskie w rozszerzonej wersji.</br>
+				Gwarantujemy przeżycie niezapomnianej przygody i wspomnienia na długie lata. Szansę na pokonanie wszystkich wyzwań mają tylko najwytrwalsi!</p>
 			</div>
 			<div class="ce-aspects-div">
 				<div class="ce-aspect">
-					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektsamarytanka.jpg">
 					<div class="ce-aspect-text">
 					<h4>SAMARYTANKA</h4>
 					<p class="smalltext">Doskonalenie i test wiedzy z zakresu udzielania pierwszej pomocy.</p>
 					</div>
 				</div>
 				<div class="ce-aspect">
-					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektprzetrwanie.jpg">
 					<div class="ce-aspect-text">
 					<h4>PRZETRWANIE</h4>
 					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
 					</div>
 				</div>
 				<div class="ce-aspect">
-				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektwoda.jpg">
 					<div class="ce-aspect-text">
-					<h4>PRZETRWANIE</h4>
-					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
+					<h4>TECHNIKI WODNE</h4>
+					<p class="smalltext">Zbadanie własnych możliwości, a także nowe wyzwanie i pokonanie swoich słabości.</p>
 					</div>
 				</div>
-				
 				<div class="ce-aspect">
-				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/jswiercz.jpg">
+				<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektzagadki.jpg">
 					<div class="ce-aspect-text">
-					<h4>PRZETRWANIE</h4>
-					<p class="smalltext">Możliwośc poznania siebie samego, swojej wytrzymałości, siły ciała, ducha i rozumu.</p>
+					<h4>ZAGADKI LOGICZNE</h4>
+					<p class="smalltext">Ćwiczenia, nie tylko te fizyczne, które pobudzą waszą wyobraźnię.</p>
+					</div>
+				</div>
+				<div class="ce-aspects-div">
+				<div class="ce-aspect">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektwedrowka.jpg">
+					<div class="ce-aspect-text">
+					<h4>WĘDRÓWKA</h4>
+					<p class="smalltext">Wędrówka z plecakiem, czyli ta fizyczna, ale także ta intelektualna.</p>
+					</div>
+				</div>
+				<div class="ce-aspect">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektwspinaczka.jpg">
+					<div class="ce-aspect-text">
+					<h4>WSPINACZKA</h4>
+					<p class="smalltext">Doskonalenie ciała, poprawienie sprawności fizycznej, a może także nowe doświadczenie.</p>
+					</div>
+				</div>
+				<div class="ce-aspects-div">
+				<div class="ce-aspect">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektbraterstwo.jpg">
+					<div class="ce-aspect-text">
+					<h4>BRATERSTWO</h4>
+					<p class="smalltext">Idealne miejsce do współdziałania i poznania nowych harcerskich przyjaciół.</p>
+					</div>
+				</div>
+				<div class="ce-aspect">
+					<img class="ce-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/aspektprzygoda.jpg">
+					<div class="ce-aspect-text">
+					<h4>PRZYGODA</h4>
+					<p class="smalltext">Niezapomniane przezycia i nowe doświadczenia, które, mamy nadzieję, przyciągną Was ponownie.</p>
 					</div>
 				</div>
 			</div>

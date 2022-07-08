@@ -14,14 +14,14 @@ Author URI: https://github.com/wojwozniak
 
 :root {
     /* Theme's colour scheme */
-    --brightgray: rgb(194, 201, 208);
-    --basicgray: rgb(151, 162, 171);
-    --darkgray: rgb(101, 118, 129);
+    --brightgray: rgb(209, 209, 209);
+    --basicgray: rgb(182, 182, 182);
+    --darkgray: rgb(156, 156, 156);
     --brightblack: #36454f;
     --white: rgb(255, 255, 255);
     --whitesmoke: #f0f0f0;
     --black: #000000;
-    --gold: #FFC700;
+    --gold: #F8CC13;
     --darkgold: #b8960d;
     --spacing: 0.25rem;
     --radius: 0.5rem;
