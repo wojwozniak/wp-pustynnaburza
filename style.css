@@ -1108,6 +1108,14 @@ line-height: 130%;
 
 /* Contact data */
 
+iframe {
+  min-width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  width: 90%;
+  height: 40%;
+}
+
 .c-first {
   display: flex;
   flex-direction: column;
@@ -1134,12 +1142,6 @@ line-height: 130%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.contact-form-wrapper {
-  width: 90%;
-  min-height: 240px;
-  background-color: var(--white);
 }
 
 /* Person list */
@@ -1210,7 +1212,11 @@ line-height: 130%;
   }
 
   .contact-form {
-    width: 50%;
+    width: 90%;
+  }
+
+  iframe {
+    margin-top: -50px;
   }
 }
 

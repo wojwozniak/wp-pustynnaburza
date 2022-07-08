@@ -24,7 +24,7 @@
             </div> <!-- End of c-socials -->
         </section> <!-- End of contact-info -->
         <section class="contact-form">
-            <div class="contact-form-wrapper"></div>
+        <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=Ho024XU55kyJPfw1H9RNzZnnXTZbvqdCr3YHVhTFAzhUN1NLTFI2NVQxUUEzV1pDQVZDNzNFUEtDVS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
         </section> <!-- End of contact-form -->
     </div> <!-- End of c-first -->
     <section class="c-us">
