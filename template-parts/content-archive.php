@@ -11,7 +11,7 @@
             <div class="intro">    
                 <?php the_excerpt(); ?>
             </div>
-            <a class="more-link" href=<?php the_permalink() ?> > Czytaj więcej &rarr;</a>
+            <a class="more-link" href=<?php the_permalink() ?> > Czytaj więcej</a>
         </div> <!-- media-body -->
     </div> <!-- post-elements -->
 </article>

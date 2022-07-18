@@ -9,7 +9,7 @@
 	<!-- Pierwsza sekcja -->
 	<section id="home" class="section">
 		<h1 class="title"> Pustynna Burza </h1>
-		<p id="title-scrolldown"><i class="fa-solid fa-circle-arrow-down"></i></p>
+		<p id="title-scrolldown"><i class="fa-solid fa-angle-down"></i></p>
 	</section> <!-- end of home section -->
 	<!-- Sekcja z odliczaniem -->
 	<section id="opis" class="section small-section opis">
@@ -34,9 +34,9 @@
 				Zapraszamy wszystkich wędrowników i starszyznę harcerską.
 				Reaktywowana edycja imprezy będzie odbywać się od 29 kwietnia do 1 maja 2023 roku w Dąbrowie Górniczej! 
 			</p>
-			<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/informacje';"><i class="fa-solid fa-info"></i>&nbsp Dowiedz się więcej</button>	
+			<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/informacje';">Dowiedz się więcej</button>	
 		</div>	<!-- end of desc content -->
-		<div class="desc-photo"></div>
+		<img src="/wptest2/wp-content/themes/pustynnaburza/assets/images/pb2023.png" alt="Konkurencje pustynnej burzy" class="desc-photo">
 	</section> <!-- end of description section -->
 	<section id="end-section" class="section small-section">
 		<div id="end-section-posts">
@@ -67,16 +67,22 @@
 		<div id="end-section-question">
 			<h2>MASZ JESZCZE JAKIEŚ PYTANIA?</h2>
 			<div id="end-section-question-wrapper">
-				<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
-					<i class="fa-solid fa-circle-question"></i>&nbsp Pytania i odpowiedzi
-				</button>
-				<button class="btn d-more" type="button" onclick="location.href='<?php echo get_home_url(); ?>/kontakt';">
-					<i class="fa-solid fa-address-card"></i>&nbsp Kontakt
-				</button>
-			</div>
-		</div> <!-- end of question div -->
-	</section> <!-- end of ending section -->
-</div> <!-- end of container div -->
+					<section class="contact-info">
+					<?php get_template_part('template-parts/contact-data'); ?>
+						<div class="c-socials">
+							<?php get_template_part('template-parts/social-links'); ?>
+						</div> <!-- End of c-socials -->
+					</section> <!-- End of contact-info -->
+					<p style="position: relative;">
+						Zanim zadasz nam swoje pytania - sprawdz, czy już na nie odpowiadaliśmy.
+						<img src="/wptest2/wp-content/themes/pustynnaburza/assets/images/liniaczarna.svg" alt="Wędrówka" class="linear-photo">
+					</p>
+							<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
+							Pytania i odpowiedzi
+							</button>
+						</div>
+				</section> <!-- end of ending section -->
+			</div> <!-- end of container div -->
 
 <?php
 	get_footer();

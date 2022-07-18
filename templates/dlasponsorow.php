@@ -20,7 +20,7 @@
                         <a href="#">
                             <i class="fa-solid fa-file-pdf"></i>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                            <p class="text">POZNAJ PUSTYNNĄ BURZĘ</p>
+                            <p class="text">Poznaj Pusynną Burzę</p>
                         </a>
                     </div>
                 </div>
