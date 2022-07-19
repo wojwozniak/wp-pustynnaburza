@@ -34,23 +34,7 @@
                         </div>
                   </div>
             </div>
-            <div class="partners">
-                  <h3 id="partners-title">PARTNERZY</h3>
-                  <div class="slider">
-                        <div class="slide-track">
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                              <img class="slider-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_zhp.png"/>
-                        </div>
-                  </div>
-            </div>
+            <!-- Paste partners.txt here when needed -->
       </div>
       <div id="footer-end" class="text">
             <p class ="footer-separator">&nbsp;&nbsp;</p>

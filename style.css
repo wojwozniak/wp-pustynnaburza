@@ -778,11 +778,13 @@ line-height: 130%;
 
 #single-post-wrapper {
   display:block;
+  margin: 0px 10vw 0px 10vw;
+  width: 75vw;
 }
 
 #single-post-wrapper .thumbnail {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   float: right;
   margin-left: 30px;
   margin-bottom: 30px;
