@@ -36,7 +36,7 @@
 			</p>
 			<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/informacje';">Dowiedz się więcej</button>	
 		</div>	<!-- end of desc content -->
-		<img src="/wptest2/wp-content/themes/pustynnaburza/assets/images/pb2023.png" alt="Konkurencje pustynnej burzy" class="desc-photo">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pb2023.png" alt="Konkurencje pustynnej burzy" class="desc-photo">
 	</section> <!-- end of description section -->
 	<section id="end-section" class="section small-section">
 		<div id="end-section-posts">
@@ -75,7 +75,7 @@
 					</section> <!-- End of contact-info -->
 					<p style="position: relative;">
 						Zanim zadasz nam swoje pytania - sprawdz, czy już na nie odpowiadaliśmy.
-						<img src="/wptest2/wp-content/themes/pustynnaburza/assets/images/liniaczarna.svg" alt="Wędrówka" class="linear-photo">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/liniaczarna.svg" alt="Wędrówka" class="linear-photo">
 					</p>
 							<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
 							Pytania i odpowiedzi
