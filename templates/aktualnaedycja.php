@@ -9,11 +9,24 @@
 				<h2>PUSTYNNA BURZA 2023</h2>
 				<div class="ce-desc">
 					<div>
-						<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r. godz. 15.00 </br> Dąbrowa Górnicza, woj. Śląskie</p>
-						<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią,</br>która testuje wytrzymałość uczestników podczas trzydniowych zmagań.</p>
-						<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),</br> tych, którzy chcą pokonać własne słabości, sprawdzić swoje umiejętności. 
-						<p>Podczas gry uczestnicy będą realizować zadania survivalowe, obronne,</br> czy takie z zakresu pierwszej pomocy lub terenoznawstwa.</p>
-						<p>Pustynna Burza to gra dla każdego powyżej 16 roku życia, kto chce pokonać własne słabości, sprawdzić swoją kondycję fizyczną i umiejętności. Wznowiona edycja gwarantuje przeżycie niezapomnianej przygody i wspomnienia na długie lata. Szansę na pokonanie wszystkich wyzwań mają tylko Ci najwytrwalsi!</p>
+						<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r.</br> godz. 15.00 Dąbrowa Górnicza, woj. Śląskie
+						</p>
+						<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, 
+							która testuje wytrzymałość uczestników podczas trzydniowych zmagań.
+							Podczas gry uczestnicy będą realizować zadania survivalowe, obronne,
+							czy takie z zakresu pierwszej pomocy lub terenoznawstwa.
+						</p>
+						<p>Zapraszamy wędrowników i starszyznę harcerską (powyżej 16 roku życia),
+							tych, którzy chcą pokonać własne słabości, sprawdzić swoje umiejętności.
+						</p>
+						<p>Pustynna Burza to gra dla każdego powyżej 16 roku życia, kto chce pokonać własne słabości, 
+							sprawdzić swoją kondycję fizyczną i umiejętności. Wznowiona edycja gwarantuje przeżycie niezapomnianej przygody 
+							i wspomnienia na długie lata. Szansę na pokonanie wszystkich wyzwań mają tylko Ci najwytrwalsi!
+						</p>
+						<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
+							Poznaj historię Pustynnej Burzy
+							</button>
+
 					</div>
 					<div class="desc-img-wrapper">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pb2023.png

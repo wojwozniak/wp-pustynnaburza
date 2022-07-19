@@ -135,8 +135,15 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--gold);
+  margin-top: 10px;
 }
 
 p {
@@ -155,6 +162,16 @@ p a:hover {
 .smalltext {
   font-size: 14px;
   font-weight: 400px;
+}
+
+.title-wrapper-small {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
 }
 
 .title-wrapper {
@@ -1372,13 +1389,13 @@ iframe {
   justify-content: center;
   gap: 80px;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 90px;
   margin-bottom: 60px;
 }
 
 .media-wrapper {
   cursor: pointer;
-  width: 300px;
+  width: 200px;
   height: 100px;
   background-color: var(--brightgray);
   display: flex;
@@ -1392,6 +1409,10 @@ iframe {
 
 .media-wrapper-text {
   height: fit-content !important;
+}
+
+.media-wrapper-text i {
+  font-size: 65px;
 }
 
 .media-wrapper-text a {
