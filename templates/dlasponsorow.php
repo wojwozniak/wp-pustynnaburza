@@ -27,7 +27,7 @@
                              Na pewno się do Ciebie odezwiemy!
                          </p>
                      <div class="title-wrapper-small">
-                         <h5>Co zyskuejsz?</h5>
+                         <h5>Co zyskujesz?</h5>
                      </div>
                          <p>
                              Promocję własnej działalności poprzez social media Pustynnej Burzy, jak i podczas samej gry.
