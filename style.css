@@ -689,6 +689,7 @@ line-height: 130%;
   width: 100%;
   height: auto;
   margin-bottom: 7px;
+  border-radius: 10px;
 }
 
 #end-section-posts-wrapper {

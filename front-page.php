@@ -51,7 +51,7 @@
 						echo "<div class='end-post'><a class='end-post-wrap' href='";
 						the_permalink();
 						echo "' target='_blank'>";
-							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Feature image']);} 
+							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Zdjecie postu']);} 
 			   				echo "<div class='end-title'>";
 							the_title();
 						echo "</div><span class='date'>";
