@@ -41,7 +41,7 @@
                         <a href="#">
                             <i class="fa-solid fa-file-pdf"></i>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                            <p class="text">Poznaj Pusynną Burzę</p>
+                            <p class="text">Poznaj Pustynną Burzę</p>
                         </a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
         </section> <!-- End of sponsor section -->
         <section class="sponsor">
             <?php get_template_part('template-parts/contact-data'); ?>
-            <?php get_template_part('template-parts/map'); ?>
+            <?php echo the_content(); ?>
         </section>
 	</div> <!-- End of wrapper -->
 </article>

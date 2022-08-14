@@ -13,7 +13,7 @@
                 <?php get_template_part('template-parts/social-links'); ?>
             </div> <!-- End of c-socials -->
         </section> <!-- End of contact-info -->
-        <?php get_template_part('template-parts/map'); ?>
+        <?php echo the_content(); ?>
     </div> <!-- End of c-first -->
     <section class="c-us">
         <h2>KOMENDA GRY</h2>

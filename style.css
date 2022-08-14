@@ -369,7 +369,6 @@ line-height: 130%;
 
 .site {
   background-color: var(--whitesmoke);
-  min-height: 400px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -579,6 +578,7 @@ line-height: 130%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding: 0;
   height: auto;
 

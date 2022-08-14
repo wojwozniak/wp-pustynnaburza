@@ -1,3 +1,3 @@
 <section class="contact-form">
-    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=19.19111698865891%2C50.32189861295466%2C19.193627536296848%2C50.323034000103924&amp;layer=mapnik&amp;marker=50.32246630991954%2C19.192372262477875" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.32247&amp;mlon=19.19237#map=19/50.32247/19.19237&amp;layers=N" target="_blank">Wyświetl większą mapę</a></small>
+    
 </section>
