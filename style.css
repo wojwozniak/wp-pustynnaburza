@@ -885,6 +885,8 @@ line-height: 130%;
 
 .more-link {
   color: var(--black);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .more-link:hover {

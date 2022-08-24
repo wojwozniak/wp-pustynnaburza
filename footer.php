@@ -43,6 +43,8 @@
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <p class="host"><a href="https://zhp.pl/" target="_blank">Związek Harcerstwa Polskiego</a></p>
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <p class="host"><a href="https://slaska.zhp.pl/" target="_blank">Chorągiew Śląska</a></p>
+            <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <p class="host"><a href="https://dabrowagornicza.zhp.pl/" target="_blank">ZHP Hufiec Dąbrowa Górnicza</a></p>
             <p class ="footer-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <p><a href="<?php echo get_home_url(); ?>/prywatnosc" target="_blank">Polityka prywatności</a></p>
