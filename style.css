@@ -702,6 +702,12 @@ line-height: 130%;
   justify-content: center;
 }
 
+@media screen and (max-width: 720px) {
+  #end-section-posts-wrapper {
+    flex-direction: column;
+  }
+}
+
 #end-section-more-posts {
   color: var(--gold);
   font-size: 3rem;
@@ -733,7 +739,7 @@ line-height: 130%;
   gap: 6px;
   text-align: center;
   align-items: center;
-  max-width: 30% !important;
+  max-width: 90% !important;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
   border: 1px solid white;
   border-radius: 20px;

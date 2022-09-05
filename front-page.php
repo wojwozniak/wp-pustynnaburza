@@ -52,11 +52,7 @@
 						the_permalink();
 						echo "' target='_blank'>";
 							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Zdjecie postu']);} 
-			   				echo "<div class='end-title'>";
-							the_title();
-						echo "</div><span class='date'>";
-						the_time('d.m.Y');
-						echo "r. </span></div></a>";
+						echo "</div></a>";
 						endwhile;
 						wp_reset_postdata();
 					endif; 
