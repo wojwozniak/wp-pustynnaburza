@@ -54,4 +54,3 @@ function pustynnaburza_register_scripts() {
 add_action('wp_enqueue_scripts', 'pustynnaburza_register_scripts');
 
 ?>
-
