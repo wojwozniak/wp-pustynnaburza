@@ -5,23 +5,23 @@
 // Date(rok, miesiąc-1, dzień, godzina, minuta, sekunda)
 // Ważne! - miesiąc-1, tj. np. dla kwietnia wpisujemy 3
 
-const futureDate = new Date(2022, 7, 20, 18, 30, 0);
+const futureDate = new Date(2022, 9, 1, 8, 00, 00);
 
 // Weekdays and months
 
 const months = [
-    'Stycznia',
-    'Lutego',
-    'Marca',
-    'Kwietnia',
-    'Maja',
-    'Czerwca',
-    'Lipca',
-    'Sierpnia',
-    'Września',
-    'Października',
-    'Listopada',
-    'Grudnia',
+    'stycznia',
+    'lutego',
+    'marca',
+    'kwietnia',
+    'maja',
+    'czerwca',
+    'lipca',
+    'sierpnia',
+    'września',
+    'października',
+    'listopada',
+    'grudnia',
   ];
   const weekdays = [
     'niedzielę',
@@ -55,8 +55,7 @@ const months = [
   const date = futureDate.getDate();
   
   // Text inside zgloszenia class
-  
-  zgloszenia.textContent = `Zgłoszenia ruszają w ${weekday}, ${date} ${month} ${year} o godzinie ${hours}:${minutes}!`;
+  zgloszenia.textContent = `Zgłoszenia ruszają w ${weekday} ${date}. ${month} ${year} o godzinie ${hours}:${minutes}0!`;
   
   // Time calculation
   const futureTime = futureDate.getTime();

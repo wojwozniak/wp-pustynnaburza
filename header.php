@@ -19,14 +19,8 @@
 	<nav id="nav" class="fixed-nav">
 		<div class="nav-center">
 			<div class="nav-header">
-				<?php
-					if(function_exists('the_custom_logo')){
-						$custom_logo_id = get_theme_mod('custom_logo');
-						$logo = wp_get_attachment_image_src($custom_logo_id);
-					}
-				?>
 				<a href="<?php echo get_home_url(); ?>">
-				<img id="logo" src=<?php echo $logo[0] ?> alt="logo" class="logo"/> </a>
+				<img id="logo" src="http://pustynnaburza.dabrowagornicza.zhp.pl/wp-content/uploads/2022/09/df48f1d8-73ee-4581-9671-988804349e57.png" alt="logo" class="logo"/> </a>
 				<button class="nav-toggle"><i class="fas fa-bars"></i></button>
 			</div>
 			<div class="links-container">		

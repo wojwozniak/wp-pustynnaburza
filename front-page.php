@@ -52,7 +52,7 @@
 						the_permalink();
 						echo "' target='_blank'>";
 							if(has_post_thumbnail()){ the_post_thumbnail('thumbnail',['class' => 'thumbnail', 'title' => 'Zdjecie postu']);} 
-						echo "</div></a>";
+			   				echo "</div></a>";
 						endwhile;
 						wp_reset_postdata();
 					endif; 
@@ -83,5 +83,3 @@
 <?php
 	get_footer();
 ?>
-    
-

@@ -3,7 +3,7 @@
 /*
 Theme Name: Pustynna Burza
 Text Domain: Pustynna Burza
-Version: 0.9.8
+Version: 1.0.0
 Description: Theme made for "Pustynna Burza" - event organised by scouts from Dąbrowa Górnicza 
 Tags: responsive, topbar
 Author: Wojciech Woźniak
@@ -33,6 +33,12 @@ Author URI: https://github.com/wojwozniak
 
 }
 
+#wpforms-88 {
+	width: 90%;
+	margin-left: 10%;
+	margin-right: 10px;
+}
+
 html,body {
   width: 100%;
   overflow: auto;
@@ -44,8 +50,8 @@ body {
   background-image: url("http://pustynnaburza.dabrowagornicza.zhp.pl/wp-content/uploads/2022/09/DSC_0559.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
-  background-size: cover;
+  background-position: center;
+	background-size: cover;
   flex-direction: column;
   color: var(--black);
   font-family: 'Roboto', sans-serif !important;
@@ -517,9 +523,12 @@ line-height: 130%;
 }
 
 @media screen and (max-width: 960px) {
+	.deadline {
+		padding: 5px;
+	}
   .deadline-format {
-    width: 19vw;
-    height: 19vw;
+    width: 5.5rem;
+    height: 5.5rem;
     padding: 0px;
   }
 
@@ -538,6 +547,14 @@ line-height: 130%;
     font-size: 5vw;
     margin-bottom: 0.125rem;
   }
+}
+
+@media screen and (max-width: 550px) {
+	.deadline-format {
+		margin-right: 4px;
+		width: 3.5rem;
+		height: 3.5rem;
+	}
 }
 
 .button-container {
@@ -912,6 +929,16 @@ line-height: 130%;
   padding-bottom: 40px;
 }
 
+@media screen and (max-width: 1300px) {
+	.ce-desc-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
 .ce-desc img {
   width: 100%;
   height: 100%;
@@ -1097,6 +1124,17 @@ line-height: 130%;
   transition: all 1s;
 }
 
+@media only screen and (hover: none) and (pointer: coarse){
+  .k-past-img {
+   opacity: 1;
+  }
+	
+	.k-past p {
+		color: gold;
+  			font-size: 20px !important;
+	}
+}
+
 /* ### QnA page ### */
 
 .qna-title {
@@ -1206,6 +1244,10 @@ iframe {
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+}
+
+.contact-info {
+	z-index: 10;
 }
 
 @media screen and (max-width: 720px) {
@@ -1502,7 +1544,8 @@ iframe {
 @media screen and (max-width: 720px) {
   .sponsor {
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+	gap: 6vh;
   }
   .sponsor-intro, .sponsor-img {
     width: 100%;
@@ -1684,7 +1727,7 @@ footer ul {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  padding: 8px 4vw 8px 4vw;
+  padding: 8px 1vw 8px 1vw;
 
 }
 

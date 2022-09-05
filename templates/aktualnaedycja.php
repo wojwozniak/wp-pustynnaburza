@@ -8,8 +8,8 @@
 			<div class="ce-toptext">
 				<h2>PUSTYNNA BURZA 2023</h2>
 				<div class="ce-desc">
-					<div>
-						<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r.</br> godz. 15.00 Dąbrowa Górnicza, woj. Śląskie
+					<div class="ce-desc-content">
+						<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r. godz. 15.00 </br>Dąbrowa Górnicza, woj. Śląskie
 						</p>
 						<p>Pustynna Burza to gra survivalowo-militarna z 25 letnią tradycją i historią, 
 							która testuje wytrzymałość uczestników podczas trzydniowych zmagań.
