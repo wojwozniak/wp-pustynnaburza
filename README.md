@@ -51,16 +51,17 @@ It is a non-profit work and my first project of such a big size. Work is still i
     
 ```
 
+### Admin guide (polish)
 
-### After adding this template to the site setup is needed:
-- Add menu links to both available menus
-- Set the front page to front-page.php and post the page to index.php
-- Add logo and favicon using WordPress wp-admin settings
-- Add custom HTML blocks - list of them are in the blocks.txt file!
+### Po dodaniu motywu do wordpressa niezbędny jest setup:
+- Stwórz obydwa menu i dodaj linki do wszystkich stron
+- Wybierz stronę startową jako front-page.php i stronę postów jako index.php
+- Dodaj logo i favicon za pomocą setupu wordpressa (loga inne niż kwadrat -> hardcode linku do pliku w tagu img w header.php)
+- Dodaj customowe bloki kodu (np. dodatek lazyblocks) - lista i kod dostępne w blocks.txt
 
-### Site URLs
+#### URL stron
 
-During setting up website, remember about enforcing URLs:
+Podczas setupu ustaw następujące url (wymagane dla działania niektórych przycisków):
 - Aktualności /aktualnosci
 - Pustynna Burza 2023 /informacje
 - FAQ /faq
@@ -69,14 +70,10 @@ During setting up website, remember about enforcing URLs:
 - Kontakt /kontakt
 - Kronika /kronika
 
-Failing to do so will make some cool looking buttons not work!
+#### Adding content to pages
 
-### Adding content to pages
+Większość contentu który miał się zmieniać na bieżąco jest do zmiany poprzez bloki lub edytor wordpressa - większe zmiany poprzez edytor plików motywu
 
-Content on the pages can be managed using premade custom blocks, just click "Custom HTML" -> "Reusable HTML Block". Just write what you want inside [text] and your content will be added!
-
-List of currently working blocks:
-- QnA question/answer
 
 
 ### Other info
