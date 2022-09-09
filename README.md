@@ -57,7 +57,7 @@ The website was created for ZHP Hufiec Dąbrowa Górnicza (polish non-profit org
 
 ### Admin guide (polish)
 
-### Po dodaniu motywu do wordpressa niezbędny jest setup:
+#### Po dodaniu motywu do wordpressa niezbędny jest setup:
 - Stwórz obydwa menu i dodaj linki do wszystkich stron
 - Wybierz stronę startową jako front-page.php i stronę postów jako index.php
 - Dodaj logo i favicon za pomocą setupu wordpressa (loga inne niż kwadrat -> hardcode linku do pliku w tagu img w header.php)
@@ -77,3 +77,6 @@ Podczas setupu ustaw następujące url (wymagane dla działania niektórych przy
 #### Zmienianie contentu
 
 Większość contentu który miał się zmieniać na bieżąco jest do zmiany poprzez bloki lub edytor wordpressa - większe zmiany poprzez edytor plików motywu
+-> Pytania i odpowiedzi - gotowy blok
+-> Dla mediów - gotowe bloki do dodawania plików
+-> Posty - CMS wordpressa (komentarze wyłączone, obowiązkowo zdjęcie "cover photo")
