@@ -5,7 +5,9 @@
  
 <article class="site">
     <div class="wrapper">
-    <h2>KONTAKT</h2>
+        <div class="title-wrapper">
+            <h2>KONTAKT</h2>
+        </div>
     <div class="c-first">
         <section class="contact-info">
         <?php get_template_part('template-parts/contact-data'); ?>

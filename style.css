@@ -33,10 +33,10 @@ Author URI: https://github.com/wojwozniak
 
 }
 
-#wpforms-88 {
+.wpforms-field-container {
 	width: 90%;
 	margin-left: 10%;
-	margin-right: 10px;
+	margin-right: 10%;
 }
 
 html,body {
@@ -191,7 +191,7 @@ p a:hover {
   gap: 1vh;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 750px) {
   .title-wrapper {
     width: 50vw;
     text-align: left;
@@ -214,7 +214,7 @@ nav {
   left: 0;
   width: 100%;
   background: var(--white);
-  transition-duration: 0.2s;
+  transition: background-color .7s ease;
 }
 
 .nav-header {
@@ -341,6 +341,12 @@ line-height: 130%;
   }
 }
 
+@media screen and (max-width: 1100px) {
+  [aria-current]:not([aria-current="false"]) {
+    font-weight: bold;
+  }
+}
+
 
 
 /* Menu toggle button */
@@ -381,7 +387,7 @@ line-height: 130%;
   text-align: center;
   padding-top: 145px;
   color: var(--black);
-  padding-bottom: 10vh;
+  padding-bottom: 50px;
   align-items: center;
 }
 
@@ -393,7 +399,7 @@ line-height: 130%;
   text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 750px) {
   .wrapper {
     text-align: left;
   }
@@ -444,9 +450,17 @@ line-height: 130%;
   line-height: 1; 
 }
 
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 85px;
+  }
+}
+
 #title-scrolldown {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
   width: fit-content;
   color: var(--white);
   top: calc(50% + 30vh);
@@ -503,8 +517,8 @@ line-height: 130%;
   background: var(--gold);
   color: var(--black);
   margin-right: 1rem;
-  width: 8rem;
-  height: 8rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -518,7 +532,7 @@ line-height: 130%;
   font-size: 0.85rem;
 }
 .deadline h4:not(.expired) {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.25rem;
 }
 
@@ -527,8 +541,8 @@ line-height: 130%;
 		padding: 5px;
 	}
   .deadline-format {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 7rem;
+    height: 7rem;
     padding: 0px;
   }
 
@@ -541,20 +555,36 @@ line-height: 130%;
     font-size: 3rem;
 
   }
-
   .deadline h4:not(.expired) {
     text-align: center;
-    font-size: 5vw;
+    font-size: 2.4rem;
     margin-bottom: 0.125rem;
   }
 }
 
 @media screen and (max-width: 550px) {
 	.deadline-format {
-		margin-right: 4px;
-		width: 3.5rem;
-		height: 3.5rem;
+		margin-right: 5px;
+		width: 4.8rem;
+		height: 4.8rem;
 	}
+
+  .deadline h4:not(.expired) {
+    font-size: 1.5rem;
+  }
+
+  .opis h2 {
+    font-size: 20px;
+  }
+
+  .zgloszenia {
+    font-size: 14px !important;
+  }
+
+  .opis {
+    min-height: 30vh;
+  }
+
 }
 
 .button-container {
@@ -598,9 +628,7 @@ line-height: 130%;
   justify-content: center;
   align-items: center;
   padding: 0;
-  height: auto;
-
-;
+  height: fit-content;
 }
 
 .desc-content {
@@ -614,6 +642,7 @@ line-height: 130%;
   align-items: center;
   justify-content: center;
   padding: 15px;
+  margin-top: 10px;
 }
 
 .desc-content p {
@@ -638,11 +667,11 @@ line-height: 130%;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   #description {
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     height: fit-content;
   }
 
@@ -683,6 +712,12 @@ line-height: 130%;
   margin-top: 50px;
 }
 
+@media screen and (max-width: 750px) {
+  #end-section-question {
+    padding-top: 0px;
+  }
+}
+
 #end-section-question-wrapper {
   position: relative;
   display: flex;
@@ -719,7 +754,7 @@ line-height: 130%;
   justify-content: center;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   #end-section-posts-wrapper {
     flex-direction: column;
   }
@@ -728,6 +763,7 @@ line-height: 130%;
 #end-section-more-posts {
   color: var(--gold);
   font-size: 3rem;
+  margin-top: 5px;
 }
 
 #end-section-more-posts:hover {
@@ -815,7 +851,7 @@ line-height: 130%;
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   #single-post-wrapper {
     display: flex;
     flex-direction: column;
@@ -874,7 +910,7 @@ line-height: 130%;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .post-elements {
     flex-direction: column;
     align-items: center;
@@ -921,9 +957,10 @@ line-height: 130%;
 
 .ce-desc {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-direction: row;
+  text-align: left;
   gap: 60px;
   width: 100%;
   padding-bottom: 40px;
@@ -933,7 +970,15 @@ line-height: 130%;
 	.ce-desc-content {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.ce-desc-content {
+		display: flex;
+		flex-direction: column;
+    text-align: center;
+    align-items: center;
 	}
 }
 
@@ -963,7 +1008,7 @@ line-height: 130%;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .ce-desc {
     display: flex;
     flex-direction: column;
@@ -1048,6 +1093,10 @@ line-height: 130%;
 @media screen and (min-width: 870px) {
   .ce-aspect {
     width: 48%;
+  }
+
+  .ce-aspect-text h4 {
+    font-size: 20px;
   }
 }
 
@@ -1146,7 +1195,7 @@ line-height: 130%;
   gap: 1vh;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 750px) {
   .qna-title {
     text-align: left;
   }
@@ -1154,6 +1203,7 @@ line-height: 130%;
 }
 
 .qna-wrapper {
+  margin-top: 20px;
   width: 85vw;
   background-color: var(--white);
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
@@ -1187,7 +1237,7 @@ line-height: 130%;
 }
 
 .click-wrapper .question-btn:hover {
-  color: var(--darkgray);
+  color: var(--gold);
 }
 
 .question-btn {
@@ -1197,6 +1247,9 @@ line-height: 130%;
   color: var(--black);
 }
 
+.question-btn:focus {
+  outline: none;
+}
 
 .question-text {
   padding: 1rem 0 1.5rem 0;
@@ -1250,7 +1303,7 @@ iframe {
 	z-index: 10;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .contact-info #contact-data {
     display: flex;
     flex-direction: column;
@@ -1351,7 +1404,7 @@ iframe {
   margin-bottom: 5px;
 }
 
- @media screen and (min-width: 720px) {
+ @media screen and (min-width: 750px) {
 
   .c-first {
     flex-direction: row;
@@ -1541,11 +1594,11 @@ iframe {
   height: 70%;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .sponsor {
     flex-direction: column;
     margin-bottom: 30px;
-	gap: 6vh;
+	  gap: 6vh;
   }
   .sponsor-intro, .sponsor-img {
     width: 100%;
@@ -1610,15 +1663,22 @@ iframe {
 @media screen and (max-width: 750px) {
   .footer {
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 4vw;
+    padding-left: 4vw;
   }
 
   .footer-logo-container {
     justify-content: center;
+    gap: 15px;
+    margin-bottom: 0px;
   }
 
   .footer-top {
     flex-direction: column;
     align-items: center;
+    gap: 25px;
   }
 
   .footer-links {

@@ -4,9 +4,11 @@
 ?>
 <article class="site">
 	<div class="wrapper">
+		<div class="title-wrapper">
+			<h2>PUSTYNNA BURZA 2023</h2>
+		</div>
 		<section class="ce-content">
 			<div class="ce-toptext">
-				<h2>PUSTYNNA BURZA 2023</h2>
 				<div class="ce-desc">
 					<div class="ce-desc-content">
 						<p class="normalplus">29.04.2023r. godz. 7.30 - 01.05.2023r. godz. 15.00 </br>Dąbrowa Górnicza, woj. Śląskie

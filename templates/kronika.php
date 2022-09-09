@@ -6,10 +6,10 @@
 	<div class ="wrapper">
 		<div class="title-wrapper">
 			<h2>KRONIKA</h2>
+		</div>
 			<p>Pierwsza edycja Pustynnej Burzy odbyła się już w 1995 roku. Organizację tego wydarzenia zapoczątkował działający w Dąbrowie Górniczej V Szczep Harcerski "Czarna Piątka". </br>
 			Impreza co roku przyciągała do siebie wielu zainteresowanych śmiałków. I wreszcie,</br> po kilkunastoletniej przerwie w organizacji gry, możemy ogłosić jej wielki powrót!</p>
 			<p>Zobacz zdjęcia z poprzednich edycji: </p>
-		</div>
 		<div class="k-past-container">
 			<div class="k-past">
 				<a class="normalplus" href="https://photos.app.goo.gl/U15CRxm5iJkLUfxv8" target="_blank">

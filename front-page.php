@@ -57,7 +57,7 @@
 						wp_reset_postdata();
 					endif; 
 				?>
-				<a href="" id="end-section-more-posts"><i class="fa-solid fa-angle-right"></i></a>
+				<a href="<?php echo get_home_url(); ?>/aktualnosci" id="end-section-more-posts"><i class="fa-solid fa-angle-right"></i></a>
 			</div> <!-- end of posts wrapper -->
 		</div> <!-- end of posts section -->
 		<div id="end-section-question">
@@ -70,7 +70,7 @@
 						</div> <!-- End of c-socials -->
 					</section> <!-- End of contact-info -->
 					<p style="position: relative;">
-						Zanim zadasz nam swoje pytania - sprawdz, czy już na nie odpowiadaliśmy.
+						Zanim zadasz nam swoje pytania sprawdź zakładkę z najczęściej zadawanymi pytaniami!
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/liniaczarna.svg" alt="Wędrówka" class="linear-photo">
 					</p>
 							<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/faq';">
