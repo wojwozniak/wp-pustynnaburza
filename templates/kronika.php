@@ -20,7 +20,7 @@
 			<div class="k-past">
 				<a href="https://photos.google.com/share/AF1QipO7fBDHcBFhvcyS32_x4sfRGvF8l_ioQXUKX6pztW-c6ZvJ4NmXYL32GAth61Jf4g?key=bWNuSUJxRHctWGNMMmRFSEJITFVqOU5nbmVteFVR" target="_blank">
 					<p class="normalplus">2009</p>
-					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb09.jpg" alt="">
+					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb09.JPG" alt="">
 				</a>
 			</div>
 			<div class="k-past">
@@ -32,7 +32,7 @@
 			<div class="k-past">
 				<a href="https://photos.app.goo.gl/R3tbTMHyzjQwPfUC6" target="_blank">
 					<p class="normalplus">2007</p>
-					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb07.jpg" alt="">
+					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb07.JPG" alt="">
 				</a>
 			</div>
 			<div class="k-past">
@@ -44,13 +44,13 @@
 			<div class="k-past">
 				<a href="https://photos.app.goo.gl/BKt8m5QXQUvcLiVD7" target="_blank">
 					<p class="normalplus">2005</p>
-					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb05.jpg" alt="">
+					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb05.JPG" alt="">
 				</a>
 			</div>
 			<div class="k-past">
 				<a href="https://photos.app.goo.gl/vXb8HtBuhL3i5nF7A" target="_blank">
 					<p class="normalplus">2004</p>
-					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb04.jpg" alt="">
+					<img class="k-past-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/pb99.jpg" alt="">
 				</a>
 			</div>
 			<div class="k-past">
