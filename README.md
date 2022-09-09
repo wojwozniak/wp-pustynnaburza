@@ -51,6 +51,10 @@ It is a non-profit work and my first project of such a big size. Work is still i
     
 ```
 
+### Other info
+
+The website was created for ZHP Hufiec Dąbrowa Górnicza (polish non-profit organisation), however feel free to reuse every part of the code however you want!
+
 ### Admin guide (polish)
 
 ### Po dodaniu motywu do wordpressa niezbędny jest setup:
@@ -70,12 +74,6 @@ Podczas setupu ustaw następujące url (wymagane dla działania niektórych przy
 - Kontakt /kontakt
 - Kronika /kronika
 
-#### Adding content to pages
+#### Zmienianie contentu
 
 Większość contentu który miał się zmieniać na bieżąco jest do zmiany poprzez bloki lub edytor wordpressa - większe zmiany poprzez edytor plików motywu
-
-
-
-### Other info
-
-The website was created for ZHP Hufiec Dąbrowa Górnicza (polish non-profit organisation), however feel free to reuse every part of the code however you want!
