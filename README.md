@@ -77,6 +77,6 @@ Podczas setupu ustaw następujące url (wymagane dla działania niektórych przy
 #### Zmienianie contentu
 
 Większość contentu który miał się zmieniać na bieżąco jest do zmiany poprzez bloki lub edytor wordpressa - większe zmiany poprzez edytor plików motywu
--> Pytania i odpowiedzi - gotowy blok
--> Dla mediów - gotowe bloki do dodawania plików
--> Posty - CMS wordpressa (komentarze wyłączone, obowiązkowo zdjęcie "cover photo")
+- Pytania i odpowiedzi - gotowy blok
+- Dla mediów - gotowe bloki do dodawania plików
+- Posty - CMS wordpressa (komentarze wyłączone, obowiązkowo zdjęcie "cover photo")
