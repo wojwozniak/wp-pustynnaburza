@@ -33,10 +33,27 @@ Author URI: https://github.com/wojwozniak
 
 }
 
-.wpforms-field-container {
-	width: 90%;
-	margin-left: 10%;
-	margin-right: 10%;
+.wpforms-container {
+	width: 80% !important;
+	margin: 10px !important;
+	margin-left: 10% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.wpforms-form {
+	width: 70% !important;
+	text-align: left !important;
+}
+
+@media screen and (max-width: 750px) {
+	.wpforms-form {
+		text-align: center !important;
+	}
+	.wpforms-container {
+		margin-left: 10px !important;
+	}
 }
 
 html,body {
@@ -1297,6 +1314,7 @@ iframe {
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+	align-items: center;
 }
 
 .contact-info {
@@ -1525,7 +1543,7 @@ iframe {
 .media-wrapper {
   cursor: pointer;
   width: 200px;
-  height: 100px;
+  height: 125px;
   background-color: var(--brightgray);
   display: flex;
   flex-direction: row;
@@ -1533,15 +1551,23 @@ iframe {
   justify-content: center;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15), 0 0 100px 0 rgba(25, 25, 25, 0.1);
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .media-wrapper-text {
   height: fit-content !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .media-wrapper-text i {
   font-size: 65px;
+}
+
+.media-wrapper-text .text {
+	margin-bottom: 0px;
 }
 
 .media-wrapper-text a {
@@ -1577,7 +1603,6 @@ iframe {
   flex-direction: row;
   gap: 4vw;
   justify-content: space-between;
-  margin-bottom: 60px;
 }
 
 .sponsor-intro {

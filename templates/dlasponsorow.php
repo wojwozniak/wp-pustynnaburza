@@ -38,7 +38,7 @@
 
                 <div class="media-wrapper">
                     <div class="media-wrapper-text">
-                        <a href="#">
+                        <a href="#" target="_blank">
                             <i class="fa-solid fa-file-pdf"></i>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
                             <p class="text">Poznaj Pustynną Burzę</p>
