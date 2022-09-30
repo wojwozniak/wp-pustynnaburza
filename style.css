@@ -1021,6 +1021,25 @@ line-height: 130%;
   color: var(--darkgold);
 }
 
+.pagination {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-numbers {
+	color: var(--gold);
+}
+
+.page-numbers:hover {
+	color: var(--darkgold);
+}
+
+.nav-links [aria-current]:not([aria-current="false"]) {
+	color: var(--black) !important;
+}
+
 /* ### Current edition ### */
 
 .ce-desc {
