@@ -5,7 +5,7 @@
 // Date(rok, miesiąc-1, dzień, godzina, minuta, sekunda)
 // Ważne! - miesiąc-1, tj. np. dla kwietnia wpisujemy 3
 
-const futureDate = new Date(2022, 9, 1, 8, 00, 00);
+const futureDate = new Date(2022, 9, 1, 16, 00, 00);
 
 // Weekdays and months
 
@@ -146,10 +146,16 @@ const months = [
     items.forEach((item, index) => {
       item.innerHTML = format(values[index]);
     });
+	  
+	  const buttonContainer = document.querySelector('.button-container');
+	  const timerTitle = document.querySelector('.timer-title');
   
     if (t < 0) {
       clearInterval(countdown);
-      deadline.innerHTML = `<h4 class="expired">Zgłoszenia ruszyły! </h4>`;
+		timerTitle.innerHTML = `Zgłoszenia ruszyły!`;
+		deadline.style.display = 'none';
+		buttonContainer.innerHTML = `<button class="btn join-btn"><i class="fa-solid fa-check bigicon"></i>&nbsp Zgłaszam swój patrol</button>`;
+		zgloszenia.textContent = `Zgłoszenia trwają do:`;
     }
   }
   // countdown;

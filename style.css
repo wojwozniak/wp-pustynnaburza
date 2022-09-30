@@ -739,10 +739,11 @@ line-height: 130%;
 
   .desc-content {
     width: 100%;
+	height: auto !important;
   }
-  .desc-photo {
-    display: none;
-  }
+	.desc-photo {
+		margin-bottom: 20px;
+	}
 }
 
 .d-more {
@@ -1053,14 +1054,13 @@ line-height: 130%;
 
 .ce-desc img {
   width: 100%;
-  height: 100%;
+  height: auto;
   float: right;
   margin: 20px;
 }
 
 .desc-img-wrapper {
   display: flex;
-  align-items: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1069,8 +1069,6 @@ line-height: 130%;
   }
   
   .ce-desc img {
-    width: 80%;
-    height: 80%;
     margin: auto;
   }
 }
@@ -1807,16 +1805,11 @@ iframe {
 }
 
 @media screen and (max-width: 450px) {
-	.footer-links {
-		gap: 15px;
+	.footer-menu-wrapper {
+		display: none;
 	}
-	
-	.footer-links .h3 {
-		font-size: 1.4rem;
-	}
-	
-	.footer-links li {
-		font-size: .7rem;
+	.footer-links .socials {
+		width: 100%;
 	}
 }
 

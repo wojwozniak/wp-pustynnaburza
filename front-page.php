@@ -17,9 +17,7 @@
 		<article class="opis">
 			<h2 class="timer-title">Odliczamy czas do rozpoczęcia zgłoszeń!</h2>
 			<?php get_template_part('template-parts/front-page', 'timer'); ?>
-			<!--
-			<div class="button-container"><button class="btn join-btn"><i class="fa-solid fa-check bigicon"></i>&nbsp Zgłaszam swój patrol</button></div>
-			-->
+			<div class="button-container"></div>
 			<!--W zgloszenia pojawi się napis zgłoszenia kończą się i obliczona data -->
 			<h2 class="zgloszenia"></h2>
     	</article> <!-- end of opis content -->
@@ -36,7 +34,11 @@
 			</p>
 			<button type="button" class="btn d-more" onclick="location.href='<?php echo get_home_url(); ?>/informacje';">Dowiedz się więcej</button>	
 		</div>	<!-- end of desc content -->
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pb2023.png" alt="Konkurencje pustynnej burzy" class="desc-photo">
+		<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pb2023.png" alt="Konkurencje pustynnej burzy" class="desc-photo"> -->
+		<video width="320" height="240" autoplay muted controls class="desc-photo">
+  			<source src="https://pustynnaburza.dabrowagornicza.zhp.pl/wp-content/uploads/2022/09/film-ze-zgloszeniami.mov" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
 	</section> <!-- end of description section -->
 	<section id="end-section" class="section small-section">
 		<div id="end-section-posts">
