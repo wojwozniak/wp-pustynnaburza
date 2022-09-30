@@ -13,7 +13,14 @@
 						}
 					}
 				?>
-				<?php the_posts_pagination(); ?>
+				<?php the_posts_pagination(array(
+				'mid_size'           => 1,
+				'prev_text'          => _x( 'Poprzednia strona', 'previous set of posts' ),
+				'next_text'          => _x( 'Następna strona', 'next set of posts' ),
+				'screen_reader_text' => __( 'Wybór strony' ),
+				'aria_label'         => __( 'Posts' ),
+				'class'              => 'pagination',
+			));); ?>
 			</div>
 	    </article>
 	
