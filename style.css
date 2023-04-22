@@ -3,7 +3,7 @@
 /*
 Theme Name: Pustynna Burza
 Text Domain: Pustynna Burza
-Version: 1.0.0
+Version: 1.0.1
 Description: Theme made for "Pustynna Burza" - event organised by scouts from Dąbrowa Górnicza 
 Tags: responsive, topbar
 Author: Wojciech Woźniak
@@ -1946,4 +1946,68 @@ footer ul {
 	#footer-end p {
 		font-size: 15px !important;
 	}
+}
+
+
+.slide img {
+  height: auto;
+  max-height: 120px;
+  width: auto;
+  max-width: 250px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 800px) {
+:root {
+  --move: -6*250px;
+}
+}
+
+@keyframes scroll {
+ 0% {
+   transform: translateX(0);
+}
+ 100% {
+   transform: translateX(calc(-500px));
+}
+}
+
+
+.slider {
+ background-color: transparent;
+ height: 130px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ box-shadow: none;
+ margin: 0;
+ overflow: hidden;
+ position: relative;
+ width: 90vw;
+}
+.slider::before, .slider::after {
+ content: "";
+ height: 100px;
+ position: absolute;
+ width: 260px;
+ z-index: 2;
+}
+.slider::after {
+ right: 0;
+ top: 0;
+ transform: rotateZ(180deg);
+}
+.slider::before {
+ left: 0;
+ top: 0;
+}
+.slider .slide-track {
+ animation: scroll 5s linear infinite;
+ display: flex;
+ width: calc(250px * 6);
+}
+.slider .slide {
+ height: 100px;
+ width: 250px;
 }
