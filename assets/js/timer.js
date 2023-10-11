@@ -1,11 +1,7 @@
 // ### Countdown ###
 
-// Deadline zgloszen
-//Wpisujemy wewnątrz funkcji
-// Date(rok, miesiąc-1, dzień, godzina, minuta, sekunda)
-// Ważne! - miesiąc-1, tj. np. dla kwietnia wpisujemy 3
-
-const futureDate = new Date(2022, 9, 1, 16, 00, 00);
+// miesiąc-1, tj. np. dla kwietnia wpisujemy 3
+const futureDate = new Date(2022, 9, 1, 16, 0, 0);
 
 // Weekdays and months
 
